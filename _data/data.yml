@@ -13,7 +13,7 @@ sidebar:
 
     # Sidebar links
     email: chankeinjp@yahoo.co.jp
-    phone: Japan:+81 080 9556 9252<br>&nbsp;China:+86 13676091404</br>
+    phone: Japan:+81 080 9556 9252<br>&nbsp;&nbsp;&nbsp;&nbsp;China:+86 13676091404</br>
     website: chankein.github.io/online-cv/ #do not add http://
     # linkedin: alandoe
     # xing: alandoe
@@ -71,7 +71,7 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
+    - degree: BJ Bachelor of Journalism and Communication
       university: South China University of Technology
       time: 2004 - 2008
       details: |
@@ -82,6 +82,18 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
+    - degree: BJ Bachelor of Journalism and Communication
+      university: Kokusyo Japanese-language school
+      time: 2004 - 2008
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+          
 experiences:
     - role: Lead Developer
       time: 2015 - Present
@@ -148,7 +160,7 @@ projects:
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
+    title: Certifications
     intro: |
       You can list your publications in this section. Lorem ipsum dolor sit
       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
