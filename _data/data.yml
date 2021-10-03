@@ -13,7 +13,7 @@ sidebar:
 
     # Sidebar links
     email: chankeinjp@yahoo.co.jp
-    phone: Japan:+81 080 9556 9252<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;China:+86 13676091404</br>
+    phone: Japan:+81 080 9556 9252 # <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;China:+86 13676091404</br>
     website: chankein.github.io/online-cv/ #do not add http://
     # linkedin: alandoe
     # xing: alandoe
@@ -44,16 +44,16 @@ sidebar:
       - item: Java SE8 Gold
         link:
 
-      - item: Linux Professional Institute LPIC-1
+      - item: Linux Professional Institute Certification LPIC-1
         link:
 
       - item: AWS Solution Architect Associate
         link:
 
-      - item: Python Engineer Test
+      - item: Python Engineer Certification
         link:
 
-      - item: Abbyy FC 12 Solution Architect Advanced
+      - item: Abbyy FC 12 Solution Architect Certification Advanced
         link:
 
       - item: IT Passport
@@ -62,28 +62,29 @@ sidebar:
       - item: Google Analytics Advanced
         link:
         
-      - item: JLPT N1 (Japanese Language Proficiency Test)
+      - item: JLPT(N1) # (Japanese Language Proficiency Test)
         link:
       
-      - item: TOEFL Score:76 (Test of English as a Foreign Language)
+      - item: TOEFL (Score:76) # (Test of English as a Foreign Language)
         link:
 
-      - item: Certified Financial Planner(level 3)
+      - item: Certified Financial Planner (level 3)
         link:
 
-      - item: The Official Business Skills Test in Bookkeeping 2nd Grade
+      - item: The Official Business Skills Test in Bookkeeping (2nd Grade)
         link:
 
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Highly-skilled and motivated senior software engineer 
+      with 9 years of experience. Enhanced performance of 24 applications using ASP.NET Web Forms 
+      and MVC Razor. Increased revenue by 8% by analyzing and improving app 
+      monetization strategies. Seeking to draw on proven software development and 
+      engineering skills to increase and improve Lexor’s impressive line of applications.
+
+      
 education:
     - degree: Master Degree(MEc)
       university: Osaka University,Japan
