@@ -7,34 +7,37 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Kein Chan
+    tagline: Big Data Engineer & Server End Delveloper
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
+    email: chankeinjp@yahoo.co.jp
+    phone: Japan:+81 080 9556 9252 China:+86 13676091404
+    website: chankein.github.io/online-cv/ #do not add http://
+    # linkedin: alandoe
+    # xing: alandoe
+    # github: sharu725
+    # telegram: # add your nickname without '@' sign
     gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    # bitbucket:
+    # twitter: '@webjeda'
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
-      - idiom: English
+      - idiom: Cantonese
         level: Native
 
-      - idiom: French
+      - idiom: Mandarin
+        level: Native
+
+      - idiom: Japanese
         level: Professional
 
-      - idiom: Spanish
+      - idiom: English
         level: Professional
 
     interests:
