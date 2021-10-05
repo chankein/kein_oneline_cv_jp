@@ -717,6 +717,9 @@ th {
 .glyphicon-link:before {
   content: "\e144";
 }
+.glyphicon-weixin:before {
+  content: "\f1d7";
+}
 .glyphicon-phone:before {
   content: "\e145";
 }
