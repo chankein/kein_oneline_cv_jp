@@ -20,6 +20,7 @@ sidebar:
     # github: sharu725
     # telegram: # add your nickname without '@' sign
     gitlab:
+    weixin: 225149994
     # bitbucket:
     # twitter: '@webjeda'
     # stack-overflow: # Number/Username, e.g. 123456/alandoe
@@ -78,13 +79,14 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Highly-skilled and motivated senior software engineer 
-      with 9 years of experience. Enhanced performance of 24 applications using ASP.NET Web Forms 
+      Highly-skilled and motivated senior big data engineer 
+      with over 3 years of experience. Server-End engineer with over 3 years of experience.
+      Enhanced performance of 24 applications using ASP.NET Web Forms 
       and MVC Razor. Increased revenue by 8% by analyzing and improving app 
       monetization strategies. Seeking to draw on proven software development and 
       engineering skills to increase and improve Lexor’s impressive line of applications.
 
-      
+
 education:
     - degree: Master Degree(MEc)
       university: Osaka University,Japan
@@ -125,8 +127,8 @@ education:
           
 experiences:
     - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+      time: 2019 - Present
+      company: Outsourcing Technology, Tokyo 
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -139,9 +141,9 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Full Stack Engineer
+      time: 2018 - 2019
+      company: Oriental Kingdom Group, London
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -150,9 +152,9 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Big Data Database Engineer
+      time: 2015 - 2018
+      company: Lamabang Technology Co., Ltd, ShenZhen
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -161,6 +163,7 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
+    
 projects:
     title: Projects
     intro: >
