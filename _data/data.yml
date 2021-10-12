@@ -207,34 +207,39 @@ publications:
 
 skills:
     title: Skills &amp; Proficiency
+      section: Language
+        toolset:
+          - name: Python & Pandas
+            level: 98%
 
-    toolset:
-      - name: Python & Pandas
-        level: 98%
+          - name: Java & Scala
+            level: 90%
 
-      - name: Java & Scala
-        level: 90%
+          - name: C#
+            level: 80%
 
-      - name: C#
-        level: 80%
+      section: Platform 
+          - name: Linux
+            level: 98%
 
-      - name: Linux
-        level: 98%
+      section: Database 
+          - name: Mysql/PostgreSQL/Hadoop
+            level: 90%
 
-      - name: Mysql/PostgreSQL/Hadoop
-        level: 90%
+          - name: Docker / Docker Compose
+            level: 90%
 
-      - name: Docker / Docker Compose
-        level: 90%
+      section: DevOps
+          - name: Vagrant & Ansible
+            level: 90%
 
-      - name: Vagrant & Ansible
-        level: 90%
+      section: Framework
+          - name: Spring Boot
+            level: 75%
 
-      - name: Spring Boot
-        level: 75%
-
-      - name: Photoshop
-        level: 60%
+      section: Others
+          - name: Photoshop
+            level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
