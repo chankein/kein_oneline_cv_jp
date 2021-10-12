@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Kein Chan
-    tagline: Server-Side Engineer<br/>Data Scientist Engineer
+    tagline: Server-Side Engineer<br/>Data Scientist
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -29,6 +29,8 @@ sidebar:
     # codewars:
     # goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: http://www.africau.edu/images/default/sample.pdf
+    # excel: 
+    # word: 
 
     languages:
       - idiom: Cantonese
@@ -81,30 +83,56 @@ brief:
     title: About Me
     summary: |
       Currently work in Japan as a permanent resident.<br/>
-      Getting married with a pretty girl in Macao in 2021 Spring.<br/>
-      Looking for a job opportunity in Macao.
+      Getting married with my girlfriend from Macao in 2021 Spring.<br/>
+      Seeking for a new job opportunity in Macao.
 
 career-profile:
     title: Career Profile
     summary: |
-      Highly-skilled and motivated senior big data engineer 
-      with over 3 years of experience. Server-End engineer with over 3 years of experience.
-      Enhanced performance of 24 applications using ASP.NET Web Forms 
-      and MVC Razor. Increased revenue by 8% by analyzing and improving app 
-      monetization strategies. Seeking to draw on proven software development and 
-      engineering skills to increase and improve Lexor’s impressive line of applications.
+      Highly-skilled and motivated senior Server-Side Engineer with over 6 years of experience.
+      Specialized in data science practice projects including Intelligent Recommendation,
+      Robotics,Self Learning Network Cofigration.
+      Designed a data warehouse model based on requirements for applications statistic report 
+      with 50 millions DAU(daily active units).
+      Highly skilled in machine learning, data visualization, and creative thinking.
+         
+experiences:
+    - role: Server-Side Engineer Leader
+      time: 2019 - Present
+      company: Outsourcing Technology(TSE Code:2427), Tokyo 
+      details: |
+        Provided solutions for Woven Planet Holdings
+        (Toyota Research Institute - Advanced Development),
+        Fuji Xeroxs and Fujitsu Network Solutions.
+          - Designed and developed a Microstructure Services for Smart Logistics in Woven City.(A future city ) 
+          - Bullet point
 
+    - role: Full Stack Developer
+      time: 2018 - 2019
+      company: Oriental Kingdom Group, London
+      details: |
+        Provided solutions for Softbank Robotics Boston Dynamics,Cisco.
+          - By refactoring algorithm, I shooten a process  
+          - Bullet point
 
+    - role: Big Data Engineer
+      time: 2015 - 2018
+      company: Lamabang Technology Co., Ltd, ShenZhen
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    
 education:
     - degree: Master Degree(MEc)
       university: Osaka University,Japan
       time: 2012 - 2014
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        
           - Bullet point
           - Bullet point
 
@@ -112,11 +140,7 @@ education:
       university: Kokusyo Japanese-language school,Japan
       time: 2010 - 2011
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        To prepare for entering exam
           - Bullet point
           - Bullet point
 
@@ -129,46 +153,6 @@ education:
         sociis natoque penatibus et magnis dis parturient montes, nascetur
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
         pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    
-          
-experiences:
-    - role: Lead Developer
-      time: 2019 - Present
-      company: Outsourcing Technology, Tokyo 
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Full Stack Engineer
-      time: 2018 - 2019
-      company: Oriental Kingdom Group, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: Big Data Database Engineer
-      time: 2015 - 2018
-      company: Lamabang Technology Co., Ltd, ShenZhen
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
     
@@ -225,22 +209,31 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python & Pandas
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Java & Scala
+        level: 90%
+
+      - name: C#
+        level: 80%
+
+      - name: Linux
         level: 98%
 
-      - name: Angular
-        level: 98%
+      - name: Mysql/PostgreSQL/Hadoop
+        level: 90%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Docker / Docker Compose
+        level: 90%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Vagrant & Ansible
+        level: 90%
 
-      - name: Sketch & Photoshop
+      - name: Spring Boot
+        level: 75%
+
+      - name: Photoshop
         level: 60%
 
 footer: >
