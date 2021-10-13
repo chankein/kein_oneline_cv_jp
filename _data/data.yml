@@ -207,39 +207,30 @@ publications:
 
 skills:
     title: Skills &amp; Proficiency
-    toolset: 
-      - section: Language
-        group:
-        - name: Python
-          level: 98%
+    toolset:
+      - name: Python & Django
+        level: 98%
 
-        - name: Java
-          level: 90%
+      - name: Javascript & jQuery
+        level: 98%
 
-        - name: C#
-          level: 80%
+      - name: Angular
+        level: 98%
 
-        - name: Scala
-          level: 90%
+      - name: HTML5 & CSS
+        level: 95%
 
+      - name: Ruby on Rails
+        level: 85%
 
-      - section: Platform
-        group:
-        - name: Linux
-          level: 98%
+      - name: Sketch & Photoshop
+        level: 60%
+        
+      - name: Python & Django
+        level: 98%
 
-      - section: Database
-        group:
-        - name: Mysql
-          level: 98%
+      - name: Javascript & jQuery
+        level: 98%
 
-        - name: PostgreSQL
-          level: 98%
-
-        - name: Hadoop
-          level: 98%
-
-        - name: oracalDb
-          level: 98%
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
