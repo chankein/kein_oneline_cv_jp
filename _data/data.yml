@@ -207,8 +207,8 @@ publications:
 
 skills:
     title: Skills &amp; Proficiency
+    toolset:
       section: Language
-        toolset:
           - name: Python & Pandas
             level: 98%
 
