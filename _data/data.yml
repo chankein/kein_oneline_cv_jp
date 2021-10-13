@@ -101,11 +101,15 @@ experiences:
       time: 2019 - Present
       company: Outsourcing Technology(TSE Code:2427), Tokyo 
       details: |
-        Provided solutions for Woven Planet Holdings
-        (Toyota Research Institute - Advanced Development),
+        Provided server-side solutions for smart logistics in woven city in TRI-AD   
         Fuji Xeroxs and Fujitsu Network Solutions.
-          - Designed and developed a Microstructure Services for Smart Logistics in Woven City.(A future city ) 
-          - Bullet point
+          - Designed and developed a Microstructure Services that contorl and manage over 
+          3000 robots for Smart Logistics in Woven City.
+          - Developed 5 windows applications deploy OCR techs for family register system in Japanese Govement.
+          - Developed a self detect for network device management in NTT.
+          (TRI-AD: Toyota Research Institute - Advanced Development)
+          (Woven City: a future city with over 3000 residents build by Toyota) 
+          (OCR: Optical Character Recognition)
 
     - role: Full Stack Developer
       time: 2018 - 2019
