@@ -208,6 +208,7 @@ publications:
 skills:
     title: Skills &amp; Proficiency
     toolset:
+      - title2: title2
       - name: Python & Django
         level: 98%
 
@@ -226,6 +227,13 @@ skills:
       - name: Sketch & Photoshop
         level: 60%
         
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - title2: title3
       - name: Python & Django
         level: 98%
 
