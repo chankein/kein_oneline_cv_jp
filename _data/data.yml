@@ -208,38 +208,38 @@ publications:
 skills:
     title: Skills &amp; Proficiency
     toolset: 
-      section: Language
-          - name: Python
-            level: 98%
+      - section: Language
+        group:
+        - name: Python
+          level: 98%
 
-          - name: Java & Scala
-            level: 90%
+        - name: Java
+          level: 90%
 
-          - name: C#
-            level: 80%
+        - name: C#
+          level: 80%
 
-      section: Platform 
-          - name: Linux
-            level: 98%
+        - name: Scala
+          level: 90%
 
-      section: Database 
-          - name: Mysql/PostgreSQL/Hadoop
-            level: 90%
 
-          - name: Docker / Docker Compose
-            level: 90%
+      - section: Platform
+        group:
+        - name: Linux
+          level: 98%
 
-      section: DevOps
-          - name: Vagrant & Ansible
-            level: 90%
+      - section: Database
+        group:
+        - name: Mysql
+          level: 98%
 
-      section: Framework
-          - name: Spring Boot
-            level: 75%
+        - name: PostgreSQL
+          level: 98%
 
-      section: Others
-          - name: Photoshop
-            level: 60%
+        - name: Hadoop
+          level: 98%
 
+        - name: oracalDb
+          level: 98%
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
