@@ -207,9 +207,9 @@ publications:
 
 skills:
     title: Skills &amp; Proficiency
-    toolset:
+    toolset: 
       section: Language
-          - name: Python & Pandas
+          - name: Python
             level: 98%
 
           - name: Java & Scala
