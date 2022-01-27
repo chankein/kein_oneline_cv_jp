@@ -22,8 +22,8 @@ sidebar:
     # github: chankein
     # telegram: # add your nickname without '@' sign
     gitlab:
-    
-    resume: http://localhost:4000/assets/resume_cn.pdf
+    # http://localhost:4000/assets/resume_cn.pdf
+    resume: https://chankein.github.io/Kein-cv/assets/resume_cn.pdf
     # bitbucket:
     # twitter: '@webjeda'
     # stack-overflow: # Number/Username, e.g. 123456/alandoe
@@ -203,7 +203,7 @@ publications:
       - title: The Computerization Project of Family Register in Japan(Fuji Film)
         link: "https://www.fujifilm.com/fbss/solution/public/"
         authors: "Role: System Engineer"
-        conference: The Census information system in Japan is managing by scaned data of Certificate of Family Register
+        conference: Due to the complexity of charactor set and historial reason, the Family Register in Japan is managing by scaned data of Certificate of Family Register.
 
       - title: Toyota Smart Logistics System in Woven-City (Woven Planet)
         link: "https://www.woven-city.global/"
