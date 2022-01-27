@@ -173,6 +173,10 @@ p {
     .experiences-section, .educations-section {
         .item {
             margin-bottom: 30px;
+            .description {
+                margin-bottom: 10px;
+                color: $text-grey;
+            }
         }
     }
     .upper-row {

@@ -13,24 +13,25 @@ sidebar:
 
     # Sidebar links
     email: chankeinjp@yahoo.co.jp
-    phone: Japan:+81 080 9556 9252 # <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;China:+86 13676091404</br>
-    website: chankein.github.io/online-cv/ #do not add http://
+    phone: China:+86 136 7609 1404 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Japan:+81 080 9556 9252</br>
+    website: chankein.github.io/Kein-cv/ #do not add http://
     weixin: chankein
     line: chankein
     # linkedin: alandoe
     # xing: alandoe
-    # github: sharu725
+    # github: chankein
     # telegram: # add your nickname without '@' sign
     gitlab:
     
+    resume: http://localhost:4000/assets/resume_cn.pdf
     # bitbucket:
     # twitter: '@webjeda'
     # stack-overflow: # Number/Username, e.g. 123456/alandoe
     # codewars:
     # goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
-    # excel: 
-    # word: 
+    pdf: http://localhost:4000/assets/resume_cn.pdf #http://www.africau.edu/images/default/sample.pdf
+    excel: http://localhost:4000/assets/resume_jp202201.xls
+    word: http://localhost:4000/assets/resume_jp202201.xls
 
     languages:
       - idiom: Cantonese
@@ -82,71 +83,79 @@ sidebar:
 brief:
     title: About Me
     summary: |
-      Currently work in Japan as a permanent resident.<br/>
-      Getting married with my girlfriend from Macao in 2021 Spring.<br/>
-      Seeking for a new job opportunity in Macao.
+      Senior Engineer with over 6 years of experience in practical AI/Big-Data projects.<br/>
+      Provide solutions for Japanese Govement, Toyota, Fuji Film(Xeroxs) , Cisco and Fujitsu Network Solutions.<br/>
+      <br/>
+      Currently working in Japan as a permanent resident.<br/>
+      Seeking for a job opportunity in Macao for family reason.
 
 career-profile:
     title: Career Profile
     summary: |
-      Highly-skilled and motivated senior Server-Side Engineer with over 6 years of experience.
-      Specialized in data science practice projects including Intelligent Recommendation,
-      Robotics,Self Learning Network Cofigration.
+      Highly-skilled and motivated senior Server-Side Engineer with over 6 years of experience.<br/>
+      <br/>
+      Specialized in data science practical projects including Intelligent Recommendation,
+      Robotics,Self Learning Network Cofigration, OCR.<br/>
       Designed a data warehouse model based on requirements for applications statistic report 
-      with 50 millions DAU(daily active units).
+      with 50 millions DAU(daily active units).<br/>
+      <br/>
       Highly skilled in machine learning, data visualization, and creative thinking.
-         
+
 experiences:
     - role: Server-Side Engineer Leader
       time: 2019 - Present
       company: Outsourcing Technology(TSE Code:2427), Tokyo 
       details: |
-        Provided server-side solutions for smart logistics in woven city in TRI-AD   
-        Fuji Xeroxs and Fujitsu Network Solutions.
-          - Designed and developed a Microstructure Services that contorl and manage over 
-          3000 robots for Smart Logistics in Woven City.
-          - Developed 5 windows applications deploy OCR techs for family register system in Japanese Govement.
-          - Developed a self detect for network device management in NTT.
-            - (TRI-AD: Toyota Research Institute - Advanced Development)
-            - (Woven City: a future city with over 3000 residents build by Toyota) 
-            - (OCR: Optical Character Recognition)
+        Provided server-side solutions for TRI-AD, Fuji Film(Xeroxs), and Fujitsu Network Solutions.
+        - Designed and developed a Microstructure Services System that controls and manages over 3000 robots for Smart Logistics in Woven City.
+        - Developed 5 windows applications deploy OCR techs for the census registration system in the Japanese Government.
+        - Developed a network monitoring system that provides network failure self-detection and visualization for network device management in NTT core network by Fujitsu Network Solutions.
+      description: | 
+        abbr:
+        - TRI-AD: Toyota Research Institute - Advanced Development.
+        - Woven City: A future city that provides the latest mobility solutions with over 3000 residents built by the Toyota group.
+        - OCR: Optical Character Recognition
+        - NTT: Nippon Telegraph and Telephone
 
     - role: Full Stack Developer
       time: 2018 - 2019
-      company: Oriental Kingdom Group, London
+      company: Oriental Kingdom Group, Tokyo
       details: |
-        Provided solutions for Softbank Robotics Boston Dynamics,Cisco.
-          - By refactoring algorithm, I shooten a process  
-          - Bullet point
-
+        Provided solutions for Softbank Robotics, Cisco.
+          - Be responsible to testing and bug reporting for robot control softwares inside humanoid robot Pepper and central control server system.(Under Softbank Robotics Project)
+          - Developed self-learning network-configurations setting modules for large-scale SDN solution.(Under Cisco Project) 
+      description: | 
+        abbr:
+        - SDN: Software-Defined Networking
+    
     - role: Big Data Engineer
       time: 2015 - 2018
       company: Lamabang Technology Co., Ltd, ShenZhen
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    
+        Provided data warehouse infrastructure solutions for increasing data process needs along with fast user-growth of applications from 300,000 to 3,400,000(DAU).<br/>
+        Furnish insights, analytics, and business intelligence needed to guide decisions.<br/>
+        Monitoring and diagnostic for data fluctuations exception.
+          - Build scalable databases capable of ETL processes using SQL and Spark.
+          - Evaluate the workflow and increase the efficiency of data pipelines that process over 50 TB of data daily.
+          - Translate business propositions into quantitative queries and collect/clean the necessary data.
+          - Utilize MongoDB to create NoSQL databases that harvests data from a variety of sources.
+          - Co-developed the SQL server database system to maximize performance benefits for clients.
+          - Created coherent Logical Data Models that helped guide important client business decisions
+      description: | 
+        abbr:
+        - DAU: Daily Active Units
+        - ETL: Extract-Transform-Load
 education:
     - degree: Master Degree(MEc)
       university: Osaka University,Japan
       time: 2012 - 2014
       details: |
-        
-          - Bullet point
-          - Bullet point
 
     - degree: 
       university: Kokusyo Japanese-language school,Japan
       time: 2010 - 2011
       details: |
-        To prepare for entering exam
-          - Bullet point
-          - Bullet point
+        To prepare for entering exam of doctor program.
 
     - degree: Bachelor Degree(BJ)
       university: South China University of Technology,China
@@ -161,52 +170,64 @@ education:
           - Bullet point
     
 projects:
-    title: Projects
+    title: My Skill Sets
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      I have some strange skills
     assignments:
-      - title: Velocity
+      - title: Data modeling
         link: "#hook"
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
+      - title: Testing
         link: "#"
         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
+      - title: Program Languages
         link: "#"
         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
+      - title: Nature Languages
         link: "#"
         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
+      - title: Problem-solving
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Certifications
+    title: Projects
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Althoght most of the project I paticipated is related to AI, Big Data solution, I play varias role in different project that allow me to expend a widely skill.
+      Therefore, I have a multi-aspect veiw when come to a new project.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: The Computerization Project of Family Register in Japan(Fuji Film)
+        link: "https://www.fujifilm.com/fbss/solution/public/"
+        authors: "Role: System Engineer"
+        conference: The Census information system in Japan is managing by scaned data of Certificate of Family Register
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+      - title: Toyota Smart Logistics System in Woven-City (Woven Planet)
+        link: "https://www.woven-city.global/"
+        authors: "Role: Server-Side Engineer"
         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
+      - title: vSure (Fujitsu)
+        link: "https://www.fujitsu.com/ca/en/products/network/products/vsure/"
+        authors: "Role: Server-Side Engineer"
+        conference: "Comm. ACM 4 (1961), 51–55"
+
+      - title: To Bussniss Solution Project (Softbank Robotics)
+        link: "https://www.softbankrobotics.com/emea/en/pepper/"
+        authors: "Role: Test Engineer"
+        conference: "Comm. ACM 4 (1961), 51–55"
+
+      - title: NSO(Cisco)
+        link: "https://www.cisco.com/c/en/us/products/cloud-systems-management/network-services-orchestrator/index.html/"
+        authors: "Role: Module Developer"
+        conference: "Comm. ACM 4 (1961), 51–55"
+
+      - title: Data Team in Lamabang Corp
+        link: "http://www.lamabang.com/article/detail/m-about.html/"
+        authors: "Role: Big-Data Engineer"
         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
