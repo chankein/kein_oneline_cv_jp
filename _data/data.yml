@@ -23,7 +23,8 @@ sidebar:
     # telegram: # add your nickname without '@' sign
     gitlab:
     # http://localhost:4000/assets/resume_cn.pdf
-    resume: https://chankein.github.io/Kein-cv/assets/resume_cn.pdf
+    # https://chankein.github.io/Kein-cv/assets/resume_cn.pdf
+    resume: https://chankein.github.io/Kein-cv/assets/galaxy.pptx
     # bitbucket:
     # twitter: '@webjeda'
     # stack-overflow: # Number/Username, e.g. 123456/alandoe
