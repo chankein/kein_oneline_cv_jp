@@ -24,13 +24,13 @@ sidebar:
     gitlab:
     # http://localhost:4000/assets/resume_cn.pdf
     # https://chankein.github.io/Kein-cv/assets/resume_cn.pdf
-    resume: https://chankein.github.io/Kein-cv/assets/galaxy.pptx
+    resume: https://chankein.github.io/Kein-cv/assets/resume_cn.pdf
     # bitbucket:
     # twitter: '@webjeda'
     # stack-overflow: # Number/Username, e.g. 123456/alandoe
     # codewars:
     # goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://localhost:4000/assets/resume_cn.pdf #http://www.africau.edu/images/default/sample.pdf
+    pdf: https://chankein.github.io/Kein-cv/assets/resume_cn.pdf
     excel: http://localhost:4000/assets/resume_jp202201.xls
     word: http://localhost:4000/assets/resume_jp202201.xls
 
@@ -75,7 +75,7 @@ sidebar:
       - item: TOEFL (Score:76) # (Test of English as a Foreign Language)
         link:
 
-      - item: Certified Financial Planner (level 3)
+      - item: Janpanese Certified Financial Planner (level 3)
         link:
 
       - item: The Official Business Skills Test in Bookkeeping (2nd Grade)
@@ -84,23 +84,24 @@ sidebar:
 brief:
     title: About Me
     summary: |
-      Senior Engineer with over 6 years of experience in practical AI/Big-Data projects.<br/>
+      Senior Engineer with over 6 years' experience in practical AI/Big-Data projects.<br/>
       Provide solutions for Japanese Govement, Toyota, Fuji Film(Xeroxs) , Cisco and Fujitsu Network Solutions.<br/>
       <br/>
       Currently working in Japan as a permanent resident.<br/>
-      Seeking for a job opportunity in Macao for family reason.
+      Seeking for a job opportunity in Macau for family reason.
 
 career-profile:
     title: Career Profile
     summary: |
-      Highly-skilled and motivated senior Server-Side Engineer with over 6 years of experience.<br/>
+      Highly-skilled and motivated senior Server-Side Engineer with over 6 years' experience.<br/>
       <br/>
       Specialized in data science practical projects including Intelligent Recommendation,
-      Robotics,Self Learning Network Cofigration, OCR.<br/>
-      Designed a data warehouse model based on requirements for applications statistic report 
-      with 50 millions DAU(daily active units).<br/>
+      Robotics,Self-learning Network Cofigration, OCR.<br/>
       <br/>
-      Highly skilled in machine learning, data visualization, and creative thinking.
+      Designed data warehouse models in accordance with spec requirements for APP statistic report 
+      of 50 millions DAU(daily active units).<br/>
+      <br/>
+      Strong competency in machine learning and data visualization, as well as a creative thinker.
 
 experiences:
     - role: Server-Side Engineer Leader
@@ -123,7 +124,7 @@ experiences:
       company: Oriental Kingdom Group, Tokyo
       details: |
         Provided solutions for Softbank Robotics, Cisco.
-          - Be responsible to testing and bug reporting for robot control softwares inside humanoid robot Pepper and central control server system.(Under Softbank Robotics Project)
+          - Managed quality control and bug reports for robot control softwares inside humanoid robot Pepper and central control server system.(Under Softbank Robotics Project)
           - Developed self-learning network-configurations setting modules for large-scale SDN solution.(Under Cisco Project) 
       description: | 
         abbr:
@@ -133,15 +134,15 @@ experiences:
       time: 2015 - 2018
       company: Lamabang Technology Co., Ltd, ShenZhen
       details: |
-        Provided data warehouse infrastructure solutions for increasing data process needs along with fast user-growth of applications from 300,000 to 3,400,000(DAU).<br/>
-        Furnish insights, analytics, and business intelligence needed to guide decisions.<br/>
-        Monitoring and diagnostic for data fluctuations exception.
-          - Build scalable databases capable of ETL processes using SQL and Spark.
-          - Evaluate the workflow and increase the efficiency of data pipelines that process over 50 TB of data daily.
-          - Translate business propositions into quantitative queries and collect/clean the necessary data.
-          - Utilize MongoDB to create NoSQL databases that harvests data from a variety of sources.
-          - Co-developed the SQL server database system to maximize performance benefits for clients.
-          - Created coherent Logical Data Models that helped guide important client business decisions
+        Provided data warehouse infrastructure solutions to cope with the increasing data process needs along with fast user-growth of APP from 300,000 to 3,400,000(DAU).<br/>
+        Furnish insights, analytics, and business intelligence needed to facilitate management's decision making.<br/>
+        Monitored and diagnosed for data fluctuation exception.
+          - Builded scalable databases capable of ETL processes by using SQL and Spark.
+          - Evaluated the workflow and increased the efficiency of data pipelines that process daily data over 50 TB.
+          - Transformed business propositions into quantitative queries and then collected/cleaned necessary data.
+          - Utilized MongoDB to create NoSQL databases that harvest data from various sources.
+          - Co-developed SQL server database system to maximize performance benefits for clients.
+          - Created coherent Logical Data Models that helped client facilitate important business decisions
       description: | 
         abbr:
         - DAU: Daily Active Units
@@ -162,10 +163,6 @@ education:
       university: South China University of Technology,China
       time: 2004 - 2008
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
         pretium quis, sem.
           - Bullet point
           - Bullet point
@@ -198,28 +195,29 @@ projects:
 publications:
     title: Projects
     intro: |
-      Althoght most of the project I paticipated is related to AI, Big Data solution, I play varias role in different project that allow me to expend a widely skill.
+      Althoght most of the projects I paticipated in are related to AI, Big Data solution, I play varias role in different project that allow me to expend a widely skill.
       Therefore, I have a multi-aspect veiw when come to a new project.
     papers:
       - title: The Computerization Project of Family Register in Japan(Fuji Film)
         link: "https://www.fujifilm.com/fbss/solution/public/"
         authors: "Role: System Engineer"
-        conference: Due to the complexity of charactor set and historial reason, the Family Register in Japan is managing by scaned data of Certificate of Family Register.
+        conference: There are 1,718 municipality goverments in Japan. The resident data in Japan is not managed by a single system but six different companies individually since the system development contracts are signed by each municipality goverment individually. 
+                    Furthermore, Due to the complexity of charactor set and historial reason, the Family Register in Japan is managed by scaned data of Certificate of Family Register. <br/> It was impossible to manually correct these issues.This project is to solve these issues by deploying OCR technology.
 
       - title: Toyota Smart Logistics System in Woven-City (Woven Planet)
         link: "https://www.woven-city.global/"
         authors: "Role: Server-Side Engineer"
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+        conference: Woven-city is a future smart city prototype developed by Toyota.
 
       - title: vSure (Fujitsu)
         link: "https://www.fujitsu.com/ca/en/products/network/products/vsure/"
         authors: "Role: Server-Side Engineer"
-        conference: "Comm. ACM 4 (1961), 51–55"
+        conference: "vSure is a "
 
       - title: To Bussniss Solution Project (Softbank Robotics)
         link: "https://www.softbankrobotics.com/emea/en/pepper/"
         authors: "Role: Test Engineer"
-        conference: "Comm. ACM 4 (1961), 51–55"
+        conference: Quality control
 
       - title: NSO(Cisco)
         link: "https://www.cisco.com/c/en/us/products/cloud-systems-management/network-services-orchestrator/index.html/"
