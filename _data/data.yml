@@ -13,7 +13,8 @@ sidebar:
 
     # Sidebar links
     email: chankeinjp@yahoo.co.jp
-    phone: China:+86 136 7609 1404 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Japan:+81 080 9556 9252</br>
+    phonecn: 136 7609 1404 <br>
+    phonejp: 080 9556 9252</br>
     website: chankein.github.io/Kein-cv/ #do not add http://
     weixin: chankein
     line: chankein
@@ -137,16 +138,19 @@ experiences:
         Provided data warehouse infrastructure solutions to cope with the increasing data process needs along with fast user-growth of APP from 300,000 to 3,400,000(DAU).<br/>
         Furnish insights, analytics, and business intelligence needed to facilitate management's decision making.<br/>
         Monitored and diagnosed for data fluctuation exception.
-          - Builded scalable databases capable of ETL processes by using SQL and Spark.
+          - Builded scalable databases capable of ETL processes by using SQL, Python scripts and Spark.
           - Evaluated the workflow and increased the efficiency of data pipelines that process daily data over 50 TB.
           - Transformed business propositions into quantitative queries and then collected/cleaned necessary data.
           - Utilized MongoDB to create NoSQL databases that harvest data from various sources.
           - Co-developed SQL server database system to maximize performance benefits for clients.
-          - Created coherent Logical Data Models that helped client facilitate important business decisions
+          - Created coherent Logical Data Models that helped management team important business decisions.
       description: | 
         abbr:
         - DAU: Daily Active Units
         - ETL: Extract-Transform-Load
+
+        Check Projects Section for more details 
+
 education:
     - degree: Master Degree(MEc)
       university: Osaka University,Japan
@@ -163,101 +167,231 @@ education:
       university: South China University of Technology,China
       time: 2004 - 2008
       details: |
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        p.
     
 projects:
-    title: My Skill Sets
+    title: Areas of Expertise
     intro: >
-      I have some strange skills
+      In
     assignments:
-      - title: Data modeling
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: Testing
+      - title: Data Architechture & Design
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Design & Data architechture for business requirement"
+
+      - title: Data Visualzation
+        link: "#"
+        tagline: "Quick data visualzing by Power BI, Customize visualing by "
+
+      - title: Data Mining
+        link: "#"
+        tagline: "Furnish insights, analytics, and business intelligence needed to facilitate management's decision making"
+
+      - title: Windows Apps Developing
+        link: "#"
+        tagline: "Develop windows Apps by C# & WPF framework"
+
+      - title: Software Quality Control
+        link: "#"
+        tagline: "Design & Conduct Test Case for Software Quality Control"
 
       - title: Program Languages
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "Good experence in Java, Python and C#"
+
+      - title: Highly Algorithm
+        link: "#"
+        tagline: "Good experence in Java, Python and C#"
 
       - title: Nature Languages
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: "Being able to handle multiple working language, "
 
       - title: Problem-solving
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "Diagnosed failure issues and system bottleneck resource, provide solution advice for optimization"
+
+      - title: Check "SKILLS & PROFICIENCY" Section for more details 
+        link: "#skills"
 
 publications:
     title: Projects
     intro: |
       Althoght most of the projects I paticipated in are related to AI, Big Data solution, I play varias role in different project that allow me to expend a widely skill.
-      Therefore, I have a multi-aspect veiw when come to a new project.
+      With experiences in design phase, develop phase, test phase, I hold a globle view in system developing.
+      Therefore, I have a multi-aspect veiw when come to a new project and capable with most positions.
+
+      Project retails:
     papers:
-      - title: The Computerization Project of Family Register in Japan(Fuji Film)
+      - title: The Computerization Project for Family Register in Japan(Fuji Film)
         link: "https://www.fujifilm.com/fbss/solution/public/"
         authors: "Role: System Engineer"
-        conference: There are 1,718 municipality goverments in Japan. The resident data in Japan is not managed by a single system but six different companies individually since the system development contracts are signed by each municipality goverment individually. 
-                    Furthermore, Due to the complexity of charactor set and historial reason, the Family Register in Japan is managed by scaned data of Certificate of Family Register. <br/> It was impossible to manually correct these issues.This project is to solve these issues by deploying OCR technology.
+        conference: The project is to detect mismatch data in Certificate of Family Register in Japan by deploy OCR techonology,
+                    and to adjust data errors by auto processing.</br>
+                    
+                    Key Achievements:</br>
+                    ①:Co-decided data processing for each task.</br>
+                    ②:Designed and built data wharehouse for each App.</br>
+                    ③:Created and maintain structured document definition in OCR process for scaned data.</br>
+                    ④:Created batches to enhence the precision of Optical Character Recognition.</br>
+                    ⑤:Designed UI/UX and created windows Apps when human involve is required.</br>
+                    ⑥:Lead failure investigations, conduct necessary analysis and perform corrective action for OCR module failures.</br>
 
       - title: Toyota Smart Logistics System in Woven-City (Woven Planet)
         link: "https://www.woven-city.global/"
         authors: "Role: Server-Side Engineer"
-        conference: Woven-city is a future smart city prototype developed by Toyota.
+        conference: Woven-city is a future smart city prototype developed by Toyota.</br>
+                    Toyota Smart Logistics System is one of the major functions in woven-city that provides door to door delivery service conducted by robots.</br>
+                    
+                    Key Achievements:</br>
+                    ①:Abstract function model to entities model, designed system architecture base on microstructure architecture method.</br>
+                    ②:Designed data flow, database tables, inter-faces definitions and created relative specification documents.</br>
+                    ③:Created development/test/product environment indivitual base on container techonology by create docker-compose environments that are consistent and isolated.</br>
+                    ④:Developed Microstructure Services include restful-api, mqtt, rabbitmq sender/receiver entities under Spring Boots framework.</br>
+                    ⑤:Designed and conducted test cases for unit test, integration test and functional test for quality control.</br>
+                    ⑥:Created mock data and developed stub entities in Python for to be deveoloped internal interface and external system interface for testing purpose.</br>
 
       - title: vSure (Fujitsu)
         link: "https://www.fujitsu.com/ca/en/products/network/products/vsure/"
         authors: "Role: Server-Side Engineer"
-        conference: "vSure is a "
+        conference: vSure is a system offers a single, multivendor solution that manages any technology across both physical and virtual infrastructure for Telecommunications companies.</br>
+                    
+                    Key Achievements:</br>
+                    ①:Designed inter-faces definitions and created relative specification documents.</br>
+                    ②:Designed and conducted test cases for unit test and integration test for quality control.</br>
+                    ③:Diagnosed system bottleneck resource by create monitoring scripts and analyse system logs.</br>
+                    ④:Conducted code review and offer advices to optimize software performance.</br>
+                    ⑤:By conducting code refactoring, I reduced the complexity of algorithm that managed to reduce the total time cost from more than 700 days to less than 10 minutes.   
 
       - title: To Bussniss Solution Project (Softbank Robotics)
         link: "https://www.softbankrobotics.com/emea/en/pepper/"
         authors: "Role: Test Engineer"
-        conference: Quality control
+        conference: I was responsible for Quality Control in Apps development on pepper and the server-side management system for pepper.</br>
+
+                    Key Achievements:</br>
+                    ①:Designed test cases for unit test, integration test and functional test for pepper apps and server-side management system.</br>
+                    ②:Conducted UAT (User Acceptance Test) for apps install in pepper OS.Ensured that the products meet quality and reliability requirements before they were released to consumers</br>
+                    ③:Introduced selenium framework to conduct UX/UI automatic tests for robot management system.</br>
+                    ④:Collected and analysed logs uploaded from pepper system in AWS cloud server.</br>
+                    ⑤:Reproduced reported bugs and collected evidence to create bug reports to bug fix team.</br>
+                    ⑥:Traced bugs fix status by redmine.
+                    
 
       - title: NSO(Cisco)
         link: "https://www.cisco.com/c/en/us/products/cloud-systems-management/network-services-orchestrator/index.html/"
         authors: "Role: Module Developer"
-        conference: "Comm. ACM 4 (1961), 51–55"
+        conference: NSO provides a robust bridge linking network automation and orchestration tools with the underlying physical and virtual infrastructure.</br>
+                    I was resiponsive for SDN package development.</br>
+
+                    Key Achievements:</br>
+                    ①:Developed the network configuration mapping module to convert structured data from defination files to CDB database.</br>
+                    ②:Developed the configuration data handling module for setting up multi-vender devices and network definations.</br>
+                    ③:Developed test scripts for unit tests and integration tests.
 
       - title: Data Team in Lamabang Corp
         link: "http://www.lamabang.com/article/detail/m-about.html/"
         authors: "Role: Big-Data Engineer"
-        conference: "Comm. ACM 4 (1961), 51–55"
+        conference: Lamabang is one of the biggest mobile social network for women in China. Besides Lamabang app, Lamabang Crop runs 4 relative smart-phone apps.</br>
+                    As a unicron company in China, the company face to a challenge of explosive growth in data 
+                    The data team provide data support for cross-function team.
+
+                    Key Achievements:</br>
+                    ①:Design and deploy database architecture and systems infrastructure for corporate IT systems.</br>
+                    ②:Program and implement ETC processes and applications in Python and Scala.</br>
+                    ③:Represent data team as cross-function team lead for .</br>
+                    ④:Monitor abnormal access and detect abnormal user behavior realtime and send alarms to Operation And Maintenance Team.</br>
+                    ⑤:Designed, defined, tested and managed data buried point for user behavior tracking and aggregate purpose.</br>
+                    ⑥:Introduced machine-learing technology to help create user profile and analyse user behavior modeling.</br>
+                    ⑦:Helped to build and maintain OSS system for data visualization and Operation Support.
 
 skills:
-    title: Skills &amp; Proficiency
-    toolset:
-          - name: Python & Pandas
+    title: Technical Skills
+    programming:
+          - name: Python & Pandas&TensorFlow
             level: 98%
+
+          - name: R
+            level: 90%
 
           - name: Java & Scala
             level: 90%
 
           - name: C#
-            level: 80%
+            level: 70%
 
-          - name: Linux
-            level: 98%
-
-          - name: Mysql/PostgreSQL/Hadoop
+    database:
+          - name: Mysql
             level: 90%
 
-          - name: Docker / Docker Compose
+          - name: PostgreSQL
+            level: 80%
+
+          - name: OracleDB
+            level: 80%
+
+          - name: Hadoop
+            level: 70%
+
+    dataVisualization:
+          - name: Power BI
+            level: 90%
+
+          - name: Excel
+            level: 98%
+
+    versionControl:
+          - name: Github
+            level: 90%
+
+          - name: Git
+            level: 80%
+
+    platform:
+          - name: Linux(Centos&Ubuntu)
+            level: 90%
+
+          - name: Windows7,10 & Windows Server
+            level: 80%
+
+          - name: MacOS
+            level: 50%
+
+    cloudComputing:
+          - name: AWS(EC2,S3,RDS etc)
+            level: 70%
+
+    containerTechnology:
+          - name: Docker & Docker Compose
             level: 90%
 
           - name: Vagrant & Ansible
-            level: 90%
+            level: 80%
+
+    framework:
+          - name: Flask
+            level: 85%
+
+          - name: Django
+            level: 85%
 
           - name: Spring Boot
             level: 75%
 
+    testTools:
+          - name: Pytest
+            level: 85%  
+
+          - name: JUnit
+            level: 85% 
+
+          - name: Selenium
+            level: 85% 
+
+          - name: Postman
+            level: 85% 
+
+    UI/UXDesign:
           - name: Photoshop
             level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by ChanKein

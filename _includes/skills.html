@@ -2,7 +2,7 @@
 {% if skills %}
 <section class="skills-section section">
 
-  <h2 class="section-title">
+  <h2 class="section-title" id="skills">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
@@ -11,21 +11,175 @@
   </h2>
 
   <div class="skillset">
+    {% if skills.programming %}
+      <h4>Programming</h4>
+      {% for skill in skills.programming %}
+      <div class="item">
 
-    {% for skill in skills.toolset %}
-    <div class="item">
+        <h3 class="level-title">{{ skill.name }}</h3>
 
-      <h3 class="level-title">{{ skill.name }}</h3>
+        <div class="level-bar">
+          <div class="level-bar-inner" data-level="{{ skill.level }}">
+          </div>
+        </div><!--//level-bar-->
 
-      <div class="level-bar">
-        <div class="level-bar-inner" data-level="{{ skill.level }}">
-        </div>
-      </div><!--//level-bar-->
+      </div><!--//item-->
+      {% endfor %}
+      </br>
+    {% endif %}
 
-    </div><!--//item-->
-    {% endfor %}
+    {% if skills.database %}
+      <h4>Database</h4>
+      {% for skill in skills.database %}
+      <div class="item">
 
+        <h3 class="level-title">{{ skill.name }}</h3>
+
+        <div class="level-bar">
+          <div class="level-bar-inner" data-level="{{ skill.level }}">
+          </div>
+        </div><!--//level-bar-->
+
+      </div><!--//item-->
+      {% endfor %}
+      </br>
+    {% endif %}
+
+    {% if skills.dataVisualization %}
+      <h4>Data Visualization</h4>
+      {% for skill in skills.dataVisualization %}
+      <div class="item">
+
+        <h3 class="level-title">{{ skill.name }}</h3>
+
+        <div class="level-bar">
+          <div class="level-bar-inner" data-level="{{ skill.level }}">
+          </div>
+        </div><!--//level-bar-->
+
+      </div><!--//item-->
+      {% endfor %}
+      </br>
+    {% endif %}
+
+    {% if skills.versionControl %}
+      <h4>Source Code Version Control</h4>
+      {% for skill in skills.versionControl %}
+      <div class="item">
+
+        <h3 class="level-title">{{ skill.name }}</h3>
+
+        <div class="level-bar">
+          <div class="level-bar-inner" data-level="{{ skill.level }}">
+          </div>
+        </div><!--//level-bar-->
+
+      </div><!--//item-->
+      {% endfor %}
+      </br>
+    {% endif %}
+
+    {% if skills.platform %}
+      <h4>OS</h4>
+      {% for skill in skills.platform %}
+      <div class="item">
+
+        <h3 class="level-title">{{ skill.name }}</h3>
+
+        <div class="level-bar">
+          <div class="level-bar-inner" data-level="{{ skill.level }}">
+          </div>
+        </div><!--//level-bar-->
+
+      </div><!--//item-->
+      {% endfor %}
+      </br>
+    {% endif %}
+
+    {% if skills.cloudComputing %}
+      <h4>Cloud Computing</h4>
+      {% for skill in skills.cloudComputing %}
+      <div class="item">
+
+        <h3 class="level-title">{{ skill.name }}</h3>
+
+        <div class="level-bar">
+          <div class="level-bar-inner" data-level="{{ skill.level }}">
+          </div>
+        </div><!--//level-bar-->
+
+      </div><!--//item-->
+      {% endfor %}
+    </br>
+    {% endif %}
+
+    {% if skills.containerTechnology %}
+      <h4>Virtualized Platforms & Container Technology</h4>
+      {% for skill in skills.containerTechnology %}
+      <div class="item">
+
+        <h3 class="level-title">{{ skill.name }}</h3>
+
+        <div class="level-bar">
+          <div class="level-bar-inner" data-level="{{ skill.level }}">
+          </div>
+        </div><!--//level-bar-->
+
+      </div><!--//item-->
+      {% endfor %}
+    </br>
+    {% endif %}
+
+    {% if skills.framework %}
+      <h4>Framework</h4>
+      {% for skill in skills.framework %}
+      <div class="item">
+
+        <h3 class="level-title">{{ skill.name }}</h3>
+
+        <div class="level-bar">
+          <div class="level-bar-inner" data-level="{{ skill.level }}">
+          </div>
+        </div><!--//level-bar-->
+
+      </div><!--//item-->
+      {% endfor %}
+    </br>
+    {% endif %}
+
+    {% if skills.testTools %}
+      <h4>Test Tools</h4>
+      {% for skill in skills.testTools %}
+      <div class="item">
+
+        <h3 class="level-title">{{ skill.name }}</h3>
+
+        <div class="level-bar">
+          <div class="level-bar-inner" data-level="{{ skill.level }}">
+          </div>
+        </div><!--//level-bar-->
+
+      </div><!--//item-->
+      {% endfor %}
+    </br>
+    {% endif %}
+
+    {% if skills.UI/UXDesign %}
+      <h4>UI/UX Design</h4>
+      {% for skill in skills.UI/UXDesign %}
+      <div class="item">
+
+        <h3 class="level-title">{{ skill.name }}</h3>
+
+        <div class="level-bar">
+          <div class="level-bar-inner" data-level="{{ skill.level }}">
+          </div>
+        </div><!--//level-bar-->
+
+      </div><!--//item-->
+      {% endfor %}
+    </br>
+    {% endif %}
   </div>
-
 </section><!--//skills-section-->
 {% endif %}
