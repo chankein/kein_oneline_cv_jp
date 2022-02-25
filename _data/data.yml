@@ -4,7 +4,7 @@
 
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: True # set to False if you want an education in the main section instead of in the sidebar
 
     # Profile information
     name: Kein Chan
@@ -85,11 +85,11 @@ sidebar:
 brief:
     title: About Me
     summary: |
-      Senior Engineer with over 6 years' experience in practical AI/Big-Data projects.<br/>
-      Provide solutions for Japanese Govement, Toyota, Fuji Film(Xeroxs) , Cisco and Fujitsu Network Solutions.<br/>
+      Senior Engineer with over 6 years of experience in practical AI/Big-Data projects.<br/>
+      Provide solutions for the Japanese Government, Toyota, Fuji Film(Xerox), Cisco, and Fujitsu Network Solutions.<br/>
       <br/>
       Currently working in Japan as a permanent resident.<br/>
-      Seeking for a job opportunity in Macau for family reason.
+      Seeking job opportunities in Macao for family reasons.
 
 career-profile:
     title: Career Profile
@@ -109,7 +109,7 @@ experiences:
       time: 2019 - Present
       company: Outsourcing Technology(TSE Code:2427), Tokyo 
       details: |
-        Provided server-side solutions for TRI-AD, Fuji Film(Xeroxs), and Fujitsu Network Solutions.
+        Provided server-side solutions for TRI-AD, Fuji Film(Xerox), and Fujitsu Network Solutions.
         - Designed and developed a Microstructure Services System that controls and manages over 3000 robots for Smart Logistics in Woven City.
         - Developed 5 windows applications deploy OCR techs for the census registration system in the Japanese Government.
         - Developed a network monitoring system that provides network failure self-detection and visualization for network device management in NTT core network by Fujitsu Network Solutions.
@@ -125,25 +125,25 @@ experiences:
       company: Oriental Kingdom Group, Tokyo
       details: |
         Provided solutions for Softbank Robotics, Cisco.
-          - Managed quality control and bug reports for robot control softwares inside humanoid robot Pepper and central control server system.(Under Softbank Robotics Project)
-          - Developed self-learning network-configurations setting modules for large-scale SDN solution.(Under Cisco Project) 
+          - Managed quality control and bug reports for robot control software inside humanoid robot Pepper and central control server system.
+          - Developed self-learning network-configurations setting modules for large-scale SDN solution.
       description: | 
         abbr:
         - SDN: Software-Defined Networking
     
     - role: Big Data Engineer
       time: 2015 - 2018
-      company: Lamabang Technology Co., Ltd, ShenZhen
+      company: Lamabang Technology Co., Ltd, Shenzhen
       details: |
         Provided data warehouse infrastructure solutions to cope with the increasing data process needs along with fast user-growth of APP from 300,000 to 3,400,000(DAU).<br/>
-        Furnish insights, analytics, and business intelligence needed to facilitate management's decision making.<br/>
+        Furnish insights, analytics, and business intelligence needed to facility management's decision-making.<br/>
         Monitored and diagnosed for data fluctuation exception.
-          - Builded scalable databases capable of ETL processes by using SQL, Python scripts and Spark.
+          - Built scalable databases capable of ETL processes by using SQL, Python scripts, and Spark.
           - Evaluated the workflow and increased the efficiency of data pipelines that process daily data over 50 TB.
           - Transformed business propositions into quantitative queries and then collected/cleaned necessary data.
           - Utilized MongoDB to create NoSQL databases that harvest data from various sources.
           - Co-developed SQL server database system to maximize performance benefits for clients.
-          - Created coherent Logical Data Models that helped management team important business decisions.
+          - Created coherent Logical Data Models that helped the management team important business decisions.
       description: | 
         abbr:
         - DAU: Daily Active Units
@@ -153,12 +153,12 @@ experiences:
 
 education:
     - degree: Master Degree(MEc)
-      university: Osaka University,Japan
+      university: Osaka University, Japan
       time: 2012 - 2014
       details: |
 
     - degree: 
-      university: Kokusyo Japanese-language school,Japan
+      university: Kokusyo Japanese-language school, Japan
       time: 2010 - 2011
       details: |
         To prepare for entering exam of doctor program.
@@ -174,17 +174,17 @@ projects:
     intro: >
       In
     assignments:
-      - title: Data Architechture & Design
+      - title: Data Architecture & Design
         link: "#"
-        tagline: "Design & Data architechture for business requirement"
+        tagline: "Design & Data architecture  for business requirement"
 
       - title: Data Visualzation
         link: "#"
-        tagline: "Quick data visualzing by Power BI, Customize visualing by "
+        tagline: "Quick data visualizing  by Power BI, Customize visualizing development"
 
       - title: Data Mining
         link: "#"
-        tagline: "Furnish insights, analytics, and business intelligence needed to facilitate management's decision making"
+        tagline: "Furnish insights, analytics, and business intelligence needed to the facility management's decision-making"
 
       - title: Windows Apps Developing
         link: "#"
@@ -196,37 +196,37 @@ projects:
 
       - title: Program Languages
         link: "#"
-        tagline: "Good experence in Java, Python and C#"
+        tagline: "Good experience in Java, Python and C#"
 
       - title: Highly Algorithm
         link: "#"
-        tagline: "Good experence in Java, Python and C#"
+        tagline: "Good experience in Java, Python and C#"
 
       - title: Nature Languages
         link: "#"
-        tagline: "Being able to handle multiple working language, "
+        tagline: "Being able to handle multiple working languages "
 
       - title: Problem-solving
         link: "#"
         tagline: "Diagnosed failure issues and system bottleneck resource, provide solution advice for optimization"
 
-      - title: Check "SKILLS & PROFICIENCY" Section for more details 
+      - title: Check the "SKILLS & PROFICIENCY" Section for more details 
         link: "#skills"
 
 publications:
     title: Projects
     intro: |
-      Althoght most of the projects I paticipated in are related to AI, Big Data solution, I play varias role in different project that allow me to expend a widely skill.
-      With experiences in design phase, develop phase, test phase, I hold a globle view in system developing.
-      Therefore, I have a multi-aspect veiw when come to a new project and capable with most positions.
+      Although most of the projects I participated in are related to AI, Big Data solutions, I play various roles in different projects that allow me to expand a wide skill.
+      With experiences in the design phase, development phase, test phase, I hold a global view of system development.
+      Therefore, I have a multi-aspect view when comes to a new project and am capable of most positions.
 
-      Project retails:
+      Project details:
     papers:
       - title: The Computerization Project for Family Register in Japan(Fuji Film)
         link: "https://www.fujifilm.com/fbss/solution/public/"
         authors: "Role: System Engineer"
-        conference: The project is to detect mismatch data in Certificate of Family Register in Japan by deploy OCR techonology,
-                    and to adjust data errors by auto processing.</br>
+        conference: The project is to detect mismatch data in the Certificate of Family Register in Japan by deploying OCR technology,
+                    and to adjust data errors by autoprocessing.</br>
                     
                     Key Achievements:</br>
                     ①:Co-decided data processing for each task.</br>
@@ -253,54 +253,54 @@ publications:
       - title: vSure (Fujitsu)
         link: "https://www.fujitsu.com/ca/en/products/network/products/vsure/"
         authors: "Role: Server-Side Engineer"
-        conference: vSure is a system offers a single, multivendor solution that manages any technology across both physical and virtual infrastructure for Telecommunications companies.</br>
+        conference: vSure is a system that offers a single, multivendor solution that manages any technology across both physical and virtual infrastructure for Telecommunications companies.</br>
                     
                     Key Achievements:</br>
                     ①:Designed inter-faces definitions and created relative specification documents.</br>
                     ②:Designed and conducted test cases for unit test and integration test for quality control.</br>
-                    ③:Diagnosed system bottleneck resource by create monitoring scripts and analyse system logs.</br>
-                    ④:Conducted code review and offer advices to optimize software performance.</br>
-                    ⑤:By conducting code refactoring, I reduced the complexity of algorithm that managed to reduce the total time cost from more than 700 days to less than 10 minutes.   
+                    ③:Diagnosed system bottleneck resource by creating monitoring scripts and analyzing system logs..</br>
+                    ④:Conducted code review and offer advice to optimize software performance.</br>
+                    ⑤:By conducting code refactoring, I reduced the complexity of the algorithm that managed to reduce the total time cost from more than 700 days to less than 10 minutes.   
 
-      - title: To Bussniss Solution Project (Softbank Robotics)
+      - title: To Business Solution Project (Softbank Robotics)
         link: "https://www.softbankrobotics.com/emea/en/pepper/"
         authors: "Role: Test Engineer"
         conference: I was responsible for Quality Control in Apps development on pepper and the server-side management system for pepper.</br>
 
                     Key Achievements:</br>
-                    ①:Designed test cases for unit test, integration test and functional test for pepper apps and server-side management system.</br>
-                    ②:Conducted UAT (User Acceptance Test) for apps install in pepper OS.Ensured that the products meet quality and reliability requirements before they were released to consumers</br>
-                    ③:Introduced selenium framework to conduct UX/UI automatic tests for robot management system.</br>
-                    ④:Collected and analysed logs uploaded from pepper system in AWS cloud server.</br>
+                    ①:Designed test cases for unit test, integration test, and functional test for pepper apps and server-side management system.</br>
+                    ②:Conducted UAT (User Acceptance Test) for apps install in pepper OS. Ensured that the products meet quality and reliability requirements before they were released to consumers</br>
+                    ③:Introduced selenium framework to conduct UX/UI automatic tests for the robot management system.</br>
+                    ④:Collected and analyzed logs uploaded from pepper system in AWS cloud server.</br>
                     ⑤:Reproduced reported bugs and collected evidence to create bug reports to bug fix team.</br>
-                    ⑥:Traced bugs fix status by redmine.
+                    ⑥:Traced bugs fix status by Redmine.
                     
 
       - title: NSO(Cisco)
         link: "https://www.cisco.com/c/en/us/products/cloud-systems-management/network-services-orchestrator/index.html/"
         authors: "Role: Module Developer"
         conference: NSO provides a robust bridge linking network automation and orchestration tools with the underlying physical and virtual infrastructure.</br>
-                    I was resiponsive for SDN package development.</br>
+                    I was responsible for SDN package development.</br>
 
                     Key Achievements:</br>
-                    ①:Developed the network configuration mapping module to convert structured data from defination files to CDB database.</br>
-                    ②:Developed the configuration data handling module for setting up multi-vender devices and network definations.</br>
+                    ①:Developed the network configuration mapping module to convert structured data from definition files to CDB database.</br>
+                    ②:Developed the configuration data handling module for setting up multi-vendor devices and network definitions.</br>
                     ③:Developed test scripts for unit tests and integration tests.
 
       - title: Data Team in Lamabang Corp
         link: "http://www.lamabang.com/article/detail/m-about.html/"
         authors: "Role: Big-Data Engineer"
-        conference: Lamabang is one of the biggest mobile social network for women in China. Besides Lamabang app, Lamabang Crop runs 4 relative smart-phone apps.</br>
-                    As a unicron company in China, the company face to a challenge of explosive growth in data 
-                    The data team provide data support for cross-function team.
+        conference: Lamabang is one of the biggest mobile social network for women in China. Besides the Lamabang app, Lamabang Crop runs 4 relative smartphone apps.</br>
+                    As a unicron company in China, the company face a challenge of explosive growth in data 
+                    The data team provides data support for the cross-function team.
 
                     Key Achievements:</br>
                     ①:Design and deploy database architecture and systems infrastructure for corporate IT systems.</br>
                     ②:Program and implement ETC processes and applications in Python and Scala.</br>
                     ③:Represent data team as cross-function team lead for .</br>
                     ④:Monitor abnormal access and detect abnormal user behavior realtime and send alarms to Operation And Maintenance Team.</br>
-                    ⑤:Designed, defined, tested and managed data buried point for user behavior tracking and aggregate purpose.</br>
-                    ⑥:Introduced machine-learing technology to help create user profile and analyse user behavior modeling.</br>
+                    ⑤:Designed, defined, tested and managed data buried points for user behavior tracking and aggregate purpose.</br>
+                    ⑥:Introduced machine-learning technology to help create the user profile and analyze user behavior modeling.</br>
                     ⑦:Helped to build and maintain OSS system for data visualization and Operation Support.
 
 skills:
