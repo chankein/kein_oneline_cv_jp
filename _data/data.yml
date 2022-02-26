@@ -102,7 +102,7 @@ career-profile:
       Designed data warehouse models in accordance with spec requirements for APP statistic report 
       of 50 millions DAU(daily active units).<br/>
       <br/>
-      Strong competency in machine learning and data visualization, as well as a creative thinker.
+      Strong competency in machine learning and data visualization.
 
 experiences:
     - role: Server-Side Engineer Leader
@@ -172,15 +172,15 @@ education:
 projects:
     title: Areas of Expertise
     intro: >
-      In
+      Besides well-designed data engineering skills, I have highly effective software development skills, as well as good research skills.
     assignments:
       - title: Data Architecture & Design
         link: "#"
-        tagline: "Design & Data architecture  for business requirement"
+        tagline: "Design & Data architecture for business requirement"
 
       - title: Data Visualzation
         link: "#"
-        tagline: "Quick data visualizing  by Power BI, Customize visualizing development"
+        tagline: "Quick data visualizing by Power BI, Customize visualizing development"
 
       - title: Data Mining
         link: "#"
@@ -198,17 +198,17 @@ projects:
         link: "#"
         tagline: "Good experience in Java, Python and C#"
 
-      - title: Highly Algorithm
+      - title: Highly Effective Algorithm
         link: "#"
-        tagline: "Good experience in Java, Python and C#"
+        tagline: "Always looking for improvement for higher effective algorithm"
 
       - title: Nature Languages
         link: "#"
-        tagline: "Being able to handle multiple working languages "
+        tagline: "Being able to handle multiple working languages - Chinese, Japanese, and English"
 
       - title: Problem-solving
         link: "#"
-        tagline: "Diagnosed failure issues and system bottleneck resource, provide solution advice for optimization"
+        tagline: "Diagnosed failure issues and system bottleneck resources, provide solution advice for better system performance"
 
       - title: Check the "SKILLS & PROFICIENCY" Section for more details 
         link: "#skills"
@@ -306,7 +306,7 @@ publications:
 skills:
     title: Technical Skills
     programming:
-          - name: Python & Pandas&TensorFlow
+          - name: Python
             level: 98%
 
           - name: R
@@ -336,7 +336,7 @@ skills:
             level: 90%
 
           - name: Excel
-            level: 98%
+            level: 90%
 
     versionControl:
           - name: Github
@@ -346,17 +346,17 @@ skills:
             level: 80%
 
     platform:
-          - name: Linux(Centos&Ubuntu)
+          - name: Linux
             level: 90%
 
-          - name: Windows7,10 & Windows Server
+          - name: Windows
             level: 80%
 
           - name: MacOS
             level: 50%
 
     cloudComputing:
-          - name: AWS(EC2,S3,RDS etc)
+          - name: AWS
             level: 70%
 
     containerTechnology:
@@ -374,6 +374,9 @@ skills:
             level: 85%
 
           - name: Spring Boot
+            level: 75%
+
+          - name: Windows Presentation Foundation
             level: 75%
 
     testTools:
