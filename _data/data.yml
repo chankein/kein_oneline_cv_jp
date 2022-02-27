@@ -312,24 +312,28 @@ skills:
           - name: R
             level: 90%
 
-          - name: Java & Scala
+          - name: Java
             level: 90%
 
+          - name: Scala
+            level: 90%
+          
           - name: C#
-            level: 70%
+            level: 75%
+
 
     database:
           - name: Mysql
             level: 90%
 
           - name: PostgreSQL
-            level: 80%
+            level: 90%
 
           - name: OracleDB
-            level: 80%
+            level: 90%
 
           - name: Hadoop
-            level: 70%
+            level: 75%
 
     dataVisualization:
           - name: Power BI
@@ -343,58 +347,60 @@ skills:
             level: 90%
 
           - name: Git
-            level: 80%
+            level: 75%
 
     platform:
           - name: Linux
             level: 90%
 
           - name: Windows
-            level: 80%
+            level: 75%
 
           - name: MacOS
             level: 50%
 
     cloudComputing:
           - name: AWS
-            level: 70%
+            level: 50%
 
     containerTechnology:
-          - name: Docker & Docker Compose
+          - name: Docker
             level: 90%
 
-          - name: Vagrant & Ansible
-            level: 80%
+          - name: Vagrant
+            level: 75%
 
+          - name: Ansible
+            level: 75%
     framework:
           - name: Flask
-            level: 85%
+            level: 75%
 
           - name: Django
-            level: 85%
+            level: 75%
 
           - name: Spring Boot
             level: 75%
 
-          - name: Windows Presentation Foundation
+          - name: WPF
             level: 75%
 
     testTools:
           - name: Pytest
-            level: 85%  
+            level: 75%  
 
           - name: JUnit
-            level: 85% 
+            level: 75% 
 
           - name: Selenium
-            level: 85% 
+            level: 75% 
 
           - name: Postman
-            level: 85% 
+            level: 75% 
 
     UIDesign:
           - name: Photoshop
-            level: 60%
+            level: 75%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by ChanKein
+    Designed with <i class="fas fa-heart"></i> by Chan Kein

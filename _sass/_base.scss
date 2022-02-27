@@ -151,6 +151,30 @@ p {
             }
         }
     }
+    .skillset {
+        .item {
+            margin-bottom: 15px;
+            overflow: hidden;
+        }
+        .skill-title{
+            color: $text-color;
+        }
+        .level-title {
+            font-family: 'Roboto', sans-serif;
+            font-size: 11px;
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+        .level-bar {
+            height: 5px;
+            background: $smoky-white;
+        }
+        .level-bar-inner {
+            height: 5px;
+            background: lighten($theme-color, 15%);
+        }
+    }
+    
 }
 
 .main-wrapper {
@@ -239,29 +263,6 @@ p {
     }
 }
 
-
-.skillset {
-    .item {
-        margin-bottom: 15px;
-        overflow: hidden;
-    }
-    .skill-title{
-        color: $text-color;
-    }
-    .level-title {
-        font-size: 14px;
-        margin-top: 0;
-        margin-bottom: 12px;
-    }
-    .level-bar {
-        height: 12px;
-        background: $smoky-white;
-    }
-    .level-bar-inner {
-        height: 12px;
-        background: lighten($theme-color, 15%);
-    }
-}
 
 
 

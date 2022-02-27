@@ -1,185 +1,183 @@
 {% assign skills = site.data.data.skills %}
 {% if skills %}
 <section class="skills-section section">
+  <div class="education-container container-block">
 
-  <h2 class="section-title" id="skills">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ skills.title }}
-  </h2>
+    <h2 class="container-block-title">
+      {{ skills.title }}
+    </h2>
 
-  <div class="skillset">
-    {% if skills.programming %}
-      <h4>Programming</h4>
-      {% for skill in skills.programming %}
-      <div class="item">
+    <div class="skillset">
+      {% if skills.programming %}
+        <h5>Programming</h5>
+        {% for skill in skills.programming %}
+        <div class="item">
 
-        <h3 class="level-title">{{ skill.name }}</h3>
+          <h4 class="level-title">{{ skill.name }}</h4>
 
-        <div class="level-bar">
-          <div class="level-bar-inner" data-level="{{ skill.level }}">
-          </div>
-        </div><!--//level-bar-->
+          <div class="level-bar">
+            <div class="level-bar-inner" data-level="{{ skill.level }}">
+            </div>
+          </div><!--//level-bar-->
 
-      </div><!--//item-->
-      {% endfor %}
+        </div><!--//item-->
+        {% endfor %}
+        </br>
+      {% endif %}
+
+      {% if skills.database %}
+        <h5>Database</h5>
+        {% for skill in skills.database %}
+        <div class="item">
+
+          <h4 class="level-title">{{ skill.name }}</h4>
+
+          <div class="level-bar">
+            <div class="level-bar-inner" data-level="{{ skill.level }}">
+            </div>
+          </div><!--//level-bar-->
+
+        </div><!--//item-->
+        {% endfor %}
+        </br>
+      {% endif %}
+
+      {% if skills.dataVisualization %}
+        <h5>Data Visualization</h5>
+        {% for skill in skills.dataVisualization %}
+        <div class="item">
+
+          <h4 class="level-title">{{ skill.name }}</h4>
+
+          <div class="level-bar">
+            <div class="level-bar-inner" data-level="{{ skill.level }}">
+            </div>
+          </div><!--//level-bar-->
+
+        </div><!--//item-->
+        {% endfor %}
+        </br>
+      {% endif %}
+
+      {% if skills.versionControl %}
+        <h5>Source Code Version Control</h5>
+        {% for skill in skills.versionControl %}
+        <div class="item">
+
+          <h4 class="level-title">{{ skill.name }}</h4>
+
+          <div class="level-bar">
+            <div class="level-bar-inner" data-level="{{ skill.level }}">
+            </div>
+          </div><!--//level-bar-->
+
+        </div><!--//item-->
+        {% endfor %}
+        </br>
+      {% endif %}
+
+      {% if skills.platform %}
+        <h5>OS</h5>
+        {% for skill in skills.platform %}
+        <div class="item">
+
+          <h4 class="level-title">{{ skill.name }}</h4>
+
+          <div class="level-bar">
+            <div class="level-bar-inner" data-level="{{ skill.level }}">
+            </div>
+          </div><!--//level-bar-->
+
+        </div><!--//item-->
+        {% endfor %}
+        </br>
+      {% endif %}
+
+      {% if skills.cloudComputing %}
+        <h5>Cloud Computing</h5>
+        {% for skill in skills.cloudComputing %}
+        <div class="item">
+
+          <h4 class="level-title">{{ skill.name }}</h4>
+
+          <div class="level-bar">
+            <div class="level-bar-inner" data-level="{{ skill.level }}">
+            </div>
+          </div><!--//level-bar-->
+
+        </div><!--//item-->
+        {% endfor %}
       </br>
-    {% endif %}
+      {% endif %}
 
-    {% if skills.database %}
-      <h4>Database</h4>
-      {% for skill in skills.database %}
-      <div class="item">
+      {% if skills.containerTechnology %}
+        <h5>Virtualized Platforms</h5>
+        {% for skill in skills.containerTechnology %}
+        <div class="item">
 
-        <h3 class="level-title">{{ skill.name }}</h3>
+          <h4 class="level-title">{{ skill.name }}</h4>
 
-        <div class="level-bar">
-          <div class="level-bar-inner" data-level="{{ skill.level }}">
-          </div>
-        </div><!--//level-bar-->
+          <div class="level-bar">
+            <div class="level-bar-inner" data-level="{{ skill.level }}">
+            </div>
+          </div><!--//level-bar-->
 
-      </div><!--//item-->
-      {% endfor %}
+        </div><!--//item-->
+        {% endfor %}
       </br>
-    {% endif %}
+      {% endif %}
 
-    {% if skills.dataVisualization %}
-      <h4>Data Visualization</h4>
-      {% for skill in skills.dataVisualization %}
-      <div class="item">
+      {% if skills.framework %}
+        <h5>Framework</h5>
+        {% for skill in skills.framework %}
+        <div class="item">
 
-        <h3 class="level-title">{{ skill.name }}</h3>
+          <h4 class="level-title">{{ skill.name }}</h4>
 
-        <div class="level-bar">
-          <div class="level-bar-inner" data-level="{{ skill.level }}">
-          </div>
-        </div><!--//level-bar-->
+          <div class="level-bar">
+            <div class="level-bar-inner" data-level="{{ skill.level }}">
+            </div>
+          </div><!--//level-bar-->
 
-      </div><!--//item-->
-      {% endfor %}
+        </div><!--//item-->
+        {% endfor %}
       </br>
-    {% endif %}
+      {% endif %}
 
-    {% if skills.versionControl %}
-      <h4>Source Code Version Control</h4>
-      {% for skill in skills.versionControl %}
-      <div class="item">
+      {% if skills.testTools %}
+        <h5>Test Tools</h5>
+        {% for skill in skills.testTools %}
+        <div class="item">
 
-        <h3 class="level-title">{{ skill.name }}</h3>
+          <h4 class="level-title">{{ skill.name }}</h4>
 
-        <div class="level-bar">
-          <div class="level-bar-inner" data-level="{{ skill.level }}">
-          </div>
-        </div><!--//level-bar-->
+          <div class="level-bar">
+            <div class="level-bar-inner" data-level="{{ skill.level }}">
+            </div>
+          </div><!--//level-bar-->
 
-      </div><!--//item-->
-      {% endfor %}
+        </div><!--//item-->
+        {% endfor %}
       </br>
-    {% endif %}
+      {% endif %}
 
-    {% if skills.platform %}
-      <h4>OS</h4>
-      {% for skill in skills.platform %}
-      <div class="item">
+      {% if skills.UIDesign %}
+        <h5>UI/UX Design</h5>
+        {% for skill in skills.UIDesign %}
+        <div class="item">
 
-        <h3 class="level-title">{{ skill.name }}</h3>
+          <h4 class="level-title">{{ skill.name }}</h4>
 
-        <div class="level-bar">
-          <div class="level-bar-inner" data-level="{{ skill.level }}">
-          </div>
-        </div><!--//level-bar-->
+          <div class="level-bar">
+            <div class="level-bar-inner" data-level="{{ skill.level }}">
+            </div>
+          </div><!--//level-bar-->
 
-      </div><!--//item-->
-      {% endfor %}
+        </div><!--//item-->
+        {% endfor %}
       </br>
-    {% endif %}
-
-    {% if skills.cloudComputing %}
-      <h4>Cloud Computing</h4>
-      {% for skill in skills.cloudComputing %}
-      <div class="item">
-
-        <h3 class="level-title">{{ skill.name }}</h3>
-
-        <div class="level-bar">
-          <div class="level-bar-inner" data-level="{{ skill.level }}">
-          </div>
-        </div><!--//level-bar-->
-
-      </div><!--//item-->
-      {% endfor %}
-    </br>
-    {% endif %}
-
-    {% if skills.containerTechnology %}
-      <h4>Virtualized Platforms & Container Technology</h4>
-      {% for skill in skills.containerTechnology %}
-      <div class="item">
-
-        <h3 class="level-title">{{ skill.name }}</h3>
-
-        <div class="level-bar">
-          <div class="level-bar-inner" data-level="{{ skill.level }}">
-          </div>
-        </div><!--//level-bar-->
-
-      </div><!--//item-->
-      {% endfor %}
-    </br>
-    {% endif %}
-
-    {% if skills.framework %}
-      <h4>Framework</h4>
-      {% for skill in skills.framework %}
-      <div class="item">
-
-        <h3 class="level-title">{{ skill.name }}</h3>
-
-        <div class="level-bar">
-          <div class="level-bar-inner" data-level="{{ skill.level }}">
-          </div>
-        </div><!--//level-bar-->
-
-      </div><!--//item-->
-      {% endfor %}
-    </br>
-    {% endif %}
-
-    {% if skills.testTools %}
-      <h4  class="skill-title">Test Tools</h4>
-      {% for skill in skills.testTools %}
-      <div class="item">
-
-        <h3 class="level-title">{{ skill.name }}</h3>
-
-        <div class="level-bar">
-          <div class="level-bar-inner" data-level="{{ skill.level }}">
-          </div>
-        </div><!--//level-bar-->
-
-      </div><!--//item-->
-      {% endfor %}
-    </br>
-    {% endif %}
-
-    {% if skills.UIDesign %}
-      <h4 class="skill-title">UI/UX Design</h4>
-      {% for skill in skills.UIDesign %}
-      <div class="item">
-
-        <h3 class="level-title">{{ skill.name }}</h3>
-
-        <div class="level-bar">
-          <div class="level-bar-inner" data-level="{{ skill.level }}">
-          </div>
-        </div><!--//level-bar-->
-
-      </div><!--//item-->
-      {% endfor %}
-    </br>
-    {% endif %}
+      {% endif %}
+    </div>
   </div>
 </section><!--//skills-section-->
 {% endif %}
