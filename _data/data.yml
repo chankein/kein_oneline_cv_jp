@@ -210,9 +210,6 @@ projects:
         link: "#"
         tagline: "Diagnosed failure issues and system bottleneck resources, provide solution advice for better system performance"
 
-      - title: Check the "SKILLS & PROFICIENCY" Section for more details 
-        link: "#skills"
-
 publications:
     title: Projects
     intro: |
@@ -224,7 +221,7 @@ publications:
     papers:
       - title: The Computerization Project for Family Register in Japan(Fuji Film)
         link: "https://www.fujifilm.com/fbss/solution/public/"
-        authors: "Role: System Engineer"
+        authors: "System Engineer"
         conference: The project is to detect mismatch data in the Certificate of Family Register in Japan by deploying OCR technology,
                     and to adjust data errors by autoprocessing.</br>
                     
@@ -238,7 +235,7 @@ publications:
 
       - title: Toyota Smart Logistics System in Woven-City (Woven Planet)
         link: "https://www.woven-city.global/"
-        authors: "Role: Server-Side Engineer"
+        authors: "Server-Side Engineer"
         conference: Woven-city is a future smart city prototype developed by Toyota.</br>
                     Toyota Smart Logistics System is one of the major functions in woven-city that provides door to door delivery service conducted by robots.</br>
                     
@@ -252,7 +249,7 @@ publications:
 
       - title: vSure (Fujitsu)
         link: "https://www.fujitsu.com/ca/en/products/network/products/vsure/"
-        authors: "Role: Server-Side Engineer"
+        authors: "Server-Side Engineer"
         conference: vSure is a system that offers a single, multivendor solution that manages any technology across both physical and virtual infrastructure for Telecommunications companies.</br>
                     
                     Key Achievements:</br>
@@ -264,7 +261,7 @@ publications:
 
       - title: To Business Solution Project (Softbank Robotics)
         link: "https://www.softbankrobotics.com/emea/en/pepper/"
-        authors: "Role: Test Engineer"
+        authors: "Test Engineer"
         conference: I was responsible for Quality Control in Apps development on pepper and the server-side management system for pepper.</br>
 
                     Key Achievements:</br>
@@ -278,7 +275,7 @@ publications:
 
       - title: NSO(Cisco)
         link: "https://www.cisco.com/c/en/us/products/cloud-systems-management/network-services-orchestrator/index.html/"
-        authors: "Role: Module Developer"
+        authors: "Module Developer"
         conference: NSO provides a robust bridge linking network automation and orchestration tools with the underlying physical and virtual infrastructure.</br>
                     I was responsible for SDN package development.</br>
 
@@ -289,7 +286,7 @@ publications:
 
       - title: Data Team in Lamabang Corp
         link: "http://www.lamabang.com/article/detail/m-about.html/"
-        authors: "Role: Big-Data Engineer"
+        authors: "Big-Data Engineer"
         conference: Lamabang is one of the biggest mobile social network for women in China. Besides the Lamabang app, Lamabang Crop runs 4 relative smartphone apps.</br>
                     As a unicron company in China, the company face a challenge of explosive growth in data 
                     The data team provides data support for the cross-function team.

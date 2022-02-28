@@ -161,17 +161,17 @@ p {
         }
         .level-title {
             font-family: 'Roboto', sans-serif;
-            font-size: 11px;
+            font-size: 14px;
             margin-top: 0;
-            margin-bottom: 8px;
         }
         .level-bar {
             height: 5px;
-            background: $smoky-white;
+            background: lighten($theme-color, 15%);
+            
         }
         .level-bar-inner {
             height: 5px;
-            background: lighten($theme-color, 15%);
+            background: $smoky-white;
         }
     }
     
@@ -213,7 +213,7 @@ p {
         font-size: 16px;
         margin-top: 0;
         margin-bottom: 0;
-        font-weight: 500;
+        font-weight: 800;
     }
     .time {
         position: absolute;
@@ -221,14 +221,17 @@ p {
         top: 0;
         color: $text-grey;
     }
-    .company, .university {
+    .university {
         margin-bottom: 10px;
         color: $text-grey;
     }
-
+    .company {
+        margin-bottom: 10px;
+        text-decoration:underline;
+    }
     .project-title {
-        font-size: 16px;
-        font-weight: 400;
+        font-size: 15px;
+        font-weight: 550;
         margin-top: 0;
         margin-bottom: 5px;
 	color: darken($theme-color, 15%);
@@ -250,7 +253,7 @@ p {
     }
     .publication-authors {
         font-style: italic;
-        color: $text-grey;
+        font-weight: 600;
         margin-bottom: 1px;
     }
     .publications-section {
