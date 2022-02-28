@@ -125,7 +125,7 @@ experiences:
       company: Oriental Kingdom Group, Tokyo
       details: |
         Provided solutions for Softbank Robotics, Cisco.
-          - Managed quality control and bug reports for robot control software inside humanoid robot Pepper and central control server system.
+          - Responsible for quality control and bug reports of robot control software inside humanoid robot Pepper and central control server system.
           - Developed self-learning network-configurations setting modules for large-scale SDN solution.
       description: | 
         abbr:
@@ -138,16 +138,18 @@ experiences:
         Provided data warehouse infrastructure solutions to cope with the increasing data process needs along with fast user-growth of APP from 300,000 to 3,400,000(DAU).<br/>
         Furnish insights, analytics, and business intelligence needed to facility management's decision-making.<br/>
         Monitored and diagnosed for data fluctuation exception.
-          - Built scalable databases capable of ETL processes by using SQL, Python scripts, and Spark.
-          - Evaluated the workflow and increased the efficiency of data pipelines that process daily data over 50 TB.
-          - Transformed business propositions into quantitative queries and then collected/cleaned necessary data.
-          - Utilized MongoDB to create NoSQL databases that harvest data from various sources.
-          - Co-developed SQL server database system to maximize performance benefits for clients.
-          - Created coherent Logical Data Models that helped the management team important business decisions.
+          - Developed an ETL data pipeline using SQL, Shell scripts, Python scripts, scala scripts from various sources that process daily data over 50 TB.
+          - Designed data warehouse models in accordance with spec requirements for APP statistic report of 50 millions DAU.
+          - Transformed business propositions into quantitative queries and then collected/cleaned necessary data. Created over 200 quantitative reports each year at the request of the Market Operation Department, Advertising Department, and the BI Department.
+          - Developed an API server to provide data support for server-side development teams.
+          - Developed an OSS system under database team with over 12 sections of data visualization web pages for routine data analyzing.
+          - Introduced machine-learning technology to help business decision-making.
+          
       description: | 
         abbr:
         - DAU: Daily Active Units
         - ETL: Extract-Transform-Load
+        - BI : Business Intelligence
 
         Check Projects Section for more details 
 
@@ -196,7 +198,7 @@ projects:
 
       - title: Program Languages
         link: "#"
-        tagline: "Good experience in Java, Python and C#"
+        tagline: "Good experience in Python, Java, and C#"
 
       - title: Highly Effective Algorithm
         link: "#"
@@ -224,7 +226,7 @@ publications:
         authors: "System Engineer"
         conference: The project is to detect mismatch data in the Certificate of Family Register in Japan by deploying OCR technology,
                     and to adjust data errors by autoprocessing.</br>
-                    
+                    </br>
                     Key Achievements:</br>
                     ①:Co-decided data processing for each task.</br>
                     ②:Designed and built data wharehouse for each App.</br>
@@ -238,7 +240,7 @@ publications:
         authors: "Server-Side Engineer"
         conference: Woven-city is a future smart city prototype developed by Toyota.</br>
                     Toyota Smart Logistics System is one of the major functions in woven-city that provides door to door delivery service conducted by robots.</br>
-                    
+                    </br>
                     Key Achievements:</br>
                     ①:Abstract function model to entities model, designed system architecture base on microstructure architecture method.</br>
                     ②:Designed data flow, database tables, inter-faces definitions and created relative specification documents.</br>
@@ -251,7 +253,7 @@ publications:
         link: "https://www.fujitsu.com/ca/en/products/network/products/vsure/"
         authors: "Server-Side Engineer"
         conference: vSure is a system that offers a single, multivendor solution that manages any technology across both physical and virtual infrastructure for Telecommunications companies.</br>
-                    
+                    </br>
                     Key Achievements:</br>
                     ①:Designed inter-faces definitions and created relative specification documents.</br>
                     ②:Designed and conducted test cases for unit test and integration test for quality control.</br>
@@ -263,7 +265,7 @@ publications:
         link: "https://www.softbankrobotics.com/emea/en/pepper/"
         authors: "Test Engineer"
         conference: I was responsible for Quality Control in Apps development on pepper and the server-side management system for pepper.</br>
-
+                    </br>
                     Key Achievements:</br>
                     ①:Designed test cases for unit test, integration test, and functional test for pepper apps and server-side management system.</br>
                     ②:Conducted UAT (User Acceptance Test) for apps install in pepper OS. Ensured that the products meet quality and reliability requirements before they were released to consumers</br>
@@ -278,7 +280,7 @@ publications:
         authors: "Module Developer"
         conference: NSO provides a robust bridge linking network automation and orchestration tools with the underlying physical and virtual infrastructure.</br>
                     I was responsible for SDN package development.</br>
-
+                    </br>
                     Key Achievements:</br>
                     ①:Developed the network configuration mapping module to convert structured data from definition files to CDB database.</br>
                     ②:Developed the configuration data handling module for setting up multi-vendor devices and network definitions.</br>
@@ -288,17 +290,17 @@ publications:
         link: "http://www.lamabang.com/article/detail/m-about.html/"
         authors: "Big-Data Engineer"
         conference: Lamabang is one of the biggest mobile social network for women in China. Besides the Lamabang app, Lamabang Crop runs 4 relative smartphone apps.</br>
-                    As a unicron company in China, the company face a challenge of explosive growth in data 
-                    The data team provides data support for the cross-function team.
-
+                    As a unicron company in China, the company face a challenge of explosive growth in data.
+                    The data team also provides data support for the cross-function team.
+                    </br>
                     Key Achievements:</br>
-                    ①:Design and deploy database architecture and systems infrastructure for corporate IT systems.</br>
-                    ②:Program and implement ETC processes and applications in Python and Scala.</br>
-                    ③:Represent data team as cross-function team lead for .</br>
-                    ④:Monitor abnormal access and detect abnormal user behavior realtime and send alarms to Operation And Maintenance Team.</br>
-                    ⑤:Designed, defined, tested and managed data buried points for user behavior tracking and aggregate purpose.</br>
-                    ⑥:Introduced machine-learning technology to help create the user profile and analyze user behavior modeling.</br>
-                    ⑦:Helped to build and maintain OSS system for data visualization and Operation Support.
+                    ①:Designed, defined, tested, and managed over 3400 data buried points for user behavior tracking and aggregate purpose.</br>
+                    ②:Program and implement ETL processes and applications in SQL, shell scripts, Python scripts, and Scala scripts.</br>
+                    ③:Design and deploy databases architecture and systems infrastructure for corporate IT systems.</br>
+                    ④:Build and maintain OSS system under database team for data visualization and Operation Support to help manager group.</br>
+                    ⑤:Developed automotive modules to monitor abnormal access, detect abnormal user behavior and send alarms by WeChat/E-mail to Operation And Maintenance Team in real-time .</br>
+                    ⑥:Paticipated in A/B experiments with the BI team to deploy the strategies online.  
+                    ⑦:Introduced machine-learning technology to help create the user profile and analyze user behavior modeling. Increased 3.67% in average of 7 days User Retention Rate</br>
 
 skills:
     title: Technical Skills
