@@ -144,14 +144,12 @@ experiences:
           - Developed an API server to provide data support for server-side development teams.
           - Developed an OSS system under database team with over 12 sections of data visualization web pages for routine data analyzing.
           - Introduced machine-learning technology to help business decision-making.
-          
       description: | 
         abbr:
         - DAU: Daily Active Units
         - ETL: Extract-Transform-Load
         - BI : Business Intelligence
-
-        Check Projects Section for more details 
+      goToProject: Click here to the project detail page.
 
 education:
     - degree: Master Degree(MEc)
@@ -213,94 +211,88 @@ expertise:
         tagline: "Diagnosed failure issues and system bottleneck resources, provide solution advice for better system performance"
 
 projects:
+    backToTOp: Click here to Resume Page
     title: Projects
     intro: |
       Although most of the projects I participated in are related to AI, Big Data solutions, I play various roles in different projects that allow me to expand a wide skill.
       With experiences in the design phase, development phase, test phase, I hold a global view of system development.
       Therefore, I have a multi-aspect view when comes to a new project and am capable of most positions.
-
-      Project details:
-    papers:
+    
+    project:
       - title: The Computerization Project for Family Register in Japan(Fuji Film)
         link: "https://www.fujifilm.com/fbss/solution/public/"
-        authors: "System Engineer"
-        conference: The project is to detect mismatch data in the Certificate of Family Register in Japan by deploying OCR technology,
+        role: "System Engineer"
+        description: The project is to detect mismatch data in the Certificate of Family Register in Japan by deploying OCR technology,
                     and to adjust data errors by autoprocessing.</br>
-                    </br>
-                    Key Achievements:</br>
-                    ①:Co-decided data processing for each task.</br>
-                    ②:Designed and built data wharehouse for each App.</br>
-                    ③:Created and maintain structured document definition in OCR process for scaned data.</br>
-                    ④:Created batches to enhence the precision of Optical Character Recognition.</br>
-                    ⑤:Designed UI/UX and created windows Apps when human involve is required.</br>
-                    ⑥:Lead failure investigations, conduct necessary analysis and perform corrective action for OCR module failures.</br>
+        KeyAchievements: |
+                    1. Co-decided data processing for each task.
+                    1. Designed and built data wharehouse for each App.
+                    1. Created and maintain structured document definition in OCR process for scaned data.
+                    1. Created batches to enhence the precision of Optical Character Recognition.
+                    1. Designed UI/UX and created windows Apps when human involve is required.
+                    1. Lead failure investigations, conduct necessary analysis and perform corrective action for OCR module failures.
 
       - title: Toyota Smart Logistics System in Woven-City (Woven Planet)
         link: "https://www.woven-city.global/"
-        authors: "Server-Side Engineer"
-        conference: Woven-city is a future smart city prototype developed by Toyota.</br>
+        role: "Server-Side Engineer"
+        description: Woven-city is a future smart city prototype developed by Toyota.</br>
                     Toyota Smart Logistics System is one of the major functions in woven-city that provides door to door delivery service conducted by robots.</br>
-                    </br>
-                    Key Achievements:</br>
-                    ①:Abstract function model to entities model, designed system architecture base on microstructure architecture method.</br>
-                    ②:Designed data flow, database tables, inter-faces definitions and created relative specification documents.</br>
-                    ③:Created development/test/product environment indivitual base on container techonology by create docker-compose environments that are consistent and isolated.</br>
-                    ④:Developed Microstructure Services include restful-api, mqtt, rabbitmq sender/receiver entities under Spring Boots framework.</br>
-                    ⑤:Designed and conducted test cases for unit test, integration test and functional test for quality control.</br>
-                    ⑥:Created mock data and developed stub entities in Python for to be deveoloped internal interface and external system interface for testing purpose.</br>
+        KeyAchievements: |
+                    1. Abstract function model to entities model, designed system architecture base on microstructure architecture method.
+                    1. Designed data flow, database tables, inter-faces definitions and created relative specification documents.
+                    1. Created development/test/product environment indivitual base on container techonology by create docker-compose environments that are consistent and isolated.
+                    1. Developed Microstructure Services include restful-api, mqtt, rabbitmq sender/receiver entities under Spring Boots framework.
+                    1. Designed and conducted test cases for unit test, integration test and functional test for quality control.
+                    1. Created mock data and developed stub entities in Python for to be deveoloped internal interface and external system interface for testing purpose.
 
       - title: vSure (Fujitsu)
         link: "https://www.fujitsu.com/ca/en/products/network/products/vsure/"
-        authors: "Server-Side Engineer"
-        conference: vSure is a system that offers a single, multivendor solution that manages any technology across both physical and virtual infrastructure for Telecommunications companies.</br>
-                    </br>
-                    Key Achievements:</br>
-                    ①:Designed inter-faces definitions and created relative specification documents.</br>
-                    ②:Designed and conducted test cases for unit test and integration test for quality control.</br>
-                    ③:Diagnosed system bottleneck resource by creating monitoring scripts and analyzing system logs..</br>
-                    ④:Conducted code review and offer advice to optimize software performance.</br>
-                    ⑤:By conducting code refactoring, I reduced the complexity of the algorithm that managed to reduce the total time cost from more than 700 days to less than 10 minutes.   
+        role: "Server-Side Engineer"
+        description: vSure is a system that offers a single, multivendor solution that manages any technology across both physical and virtual infrastructure for Telecommunications companies.</br>
+        KeyAchievements: |
+                    1. Designed inter-faces definitions and created relative specification documents.
+                    1. Designed and conducted test cases for unit test and integration test for quality control.
+                    1. Diagnosed system bottleneck resource by creating monitoring scripts and analyzing system logs.
+                    1. Conducted code review and offer advice to optimize software performance.
+                    1. By conducting code refactoring, I reduced the complexity of the algorithm that managed to reduce the total time cost from more than 700 days to less than 10 minutes.   
 
       - title: To Business Solution Project (Softbank Robotics)
         link: "https://www.softbankrobotics.com/emea/en/pepper/"
-        authors: "Test Engineer"
-        conference: I was responsible for Quality Control in Apps development on pepper and the server-side management system for pepper.</br>
-                    </br>
-                    Key Achievements:</br>
-                    ①:Designed test cases for unit test, integration test, and functional test for pepper apps and server-side management system.</br>
-                    ②:Conducted UAT (User Acceptance Test) for apps install in pepper OS. Ensured that the products meet quality and reliability requirements before they were released to consumers</br>
-                    ③:Introduced selenium framework to conduct UX/UI automatic tests for the robot management system.</br>
-                    ④:Collected and analyzed logs uploaded from pepper system in AWS cloud server.</br>
-                    ⑤:Reproduced reported bugs and collected evidence to create bug reports to bug fix team.</br>
-                    ⑥:Traced bugs fix status by Redmine.
+        role: "Test Engineer"
+        description: I was responsible for Quality Control in Apps development on pepper and the server-side management system for pepper.</br>
+        KeyAchievements: |
+                    1. Designed test cases for unit test, integration test, and functional test for pepper apps and server-side management system.
+                    1. Conducted UAT (User Acceptance Test) for apps install in pepper OS. Ensured that the products meet quality and reliability requirements before they were released to consumers.
+                    1. Introduced selenium framework to conduct UX/UI automatic tests for the robot management system.
+                    1. Collected and analyzed logs uploaded from pepper system in AWS cloud server.
+                    1. Reproduced reported bugs and collected evidence to create bug reports to bug fix team.
+                    1. Traced bugs fix status by Redmine.
                     
 
       - title: NSO(Cisco)
         link: "https://www.cisco.com/c/en/us/products/cloud-systems-management/network-services-orchestrator/index.html/"
-        authors: "Module Developer"
-        conference: NSO provides a robust bridge linking network automation and orchestration tools with the underlying physical and virtual infrastructure.</br>
+        role: "Module Developer"
+        description: NSO provides a robust bridge linking network automation and orchestration tools with the underlying physical and virtual infrastructure.</br>
                     I was responsible for SDN package development.</br>
-                    </br>
-                    Key Achievements:</br>
-                    ①:Developed the network configuration mapping module to convert structured data from definition files to CDB database.</br>
-                    ②:Developed the configuration data handling module for setting up multi-vendor devices and network definitions.</br>
-                    ③:Developed test scripts for unit tests and integration tests.
+        KeyAchievements: |
+                    1. Developed the network configuration mapping module to convert structured data from definition files to CDB database.
+                    1. Developed the configuration data handling module for setting up multi-vendor devices and network definitions.
+                    1. Developed test scripts for unit tests and integration tests.
 
       - title: Data Team in Lamabang Corp
         link: "http://www.lamabang.com/article/detail/m-about.html/"
-        authors: "Big-Data Engineer"
-        conference: Lamabang is one of the biggest mobile social network for women in China. Besides the Lamabang app, Lamabang Crop runs 4 relative smartphone apps.</br>
+        role: "Big-Data Engineer"
+        description: Lamabang is one of the biggest mobile social network for women in China. Besides the Lamabang app, Lamabang Crop runs 4 relative smartphone apps.</br>
                     As a unicron company in China, the company face a challenge of explosive growth in data.
                     The data team also provides data support for the cross-function team.
-                    </br>
-                    Key Achievements:</br>
-                    ①:Designed, defined, tested, and managed over 3400 data buried points for user behavior tracking and aggregate purpose.</br>
-                    ②:Program and implement ETL processes and applications in SQL, shell scripts, Python scripts, and Scala scripts.</br>
-                    ③:Design and deploy databases architecture and systems infrastructure for corporate IT systems.</br>
-                    ④:Build and maintain OSS system under database team for data visualization and Operation Support to help manager group.</br>
-                    ⑤:Developed automotive modules to monitor abnormal access, detect abnormal user behavior and send alarms by WeChat/E-mail to Operation And Maintenance Team in real-time .</br>
-                    ⑥:Paticipated in A/B experiments with the BI team to deploy the strategies online.  
-                    ⑦:Introduced machine-learning technology to help create the user profile and analyze user behavior modeling. Increased 3.67% in average of 7 days User Retention Rate</br>
+        KeyAchievements: |
+                    1. Designed, defined, tested, and managed over 3400 data buried points for user behavior tracking and aggregate purpose.
+                    1. Program and implement ETL processes and applications in SQL, shell scripts, Python scripts, and Scala scripts.
+                    1. Design and deploy databases architecture and systems infrastructure for corporate IT systems.
+                    1. Build and maintain OSS system under database team for data visualization and Operation Support to help manager group.
+                    1. Developed automotive modules to monitor abnormal access, detect abnormal user behavior and send alarms by WeChat/E-mail to Operation And Maintenance Team in real-time.
+                    1. Paticipated in A/B experiments with the BI team to deploy the strategies online.  
+                    1. Introduced machine-learning technology to help create the user profile and analyze user behavior modeling. Increased 3.67% in average of 7 days User Retention Rate.
 
 skills-details:
     title: Technical Skills

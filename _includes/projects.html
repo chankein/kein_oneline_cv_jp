@@ -16,18 +16,18 @@
   </div><!--//intro-->
   {% endif %}
 
-  {% for project in projects.papers %}
+  {% for project in projects.project %}
   <div class="item">
     {% if project.link %}
       <li><a href="{{ publication.link }}" target="_blank">{{ project.title }}</a></li>
     {% else %}
       <li>{{ project.title }}</li>
     {% endif %}
-    <div class="publication-authors">{{ project.authors }}</div>
-    <div class="publication-conference">{{ project.conference }}</div>
+    <div class="publication-authors">{{ project.role }}</div>
+    <div class="publication-conference">{{ project.description }}</div>
+    <div class="description">{{ project.KeyAchievements | markdownify }}</div>
   </div><!--//item-->
   {% endfor %}
-
+  <a href="https://chankein.github.io/Kein-cv/">{{ projects.backToTOp }}</a>
 </section><!--//section-->
-<a href="https://chankein.github.io/Kein-cv/">Click here to Resume Page</a>
 {% endif %}
