@@ -48,7 +48,7 @@ sidebar:
       - idiom: English
         level: Business:TOEFL-76
 
-    interests:
+    certification:
       - item: Java SE8 Gold
         link:
 
@@ -171,7 +171,7 @@ education:
       details: |
         p.
     
-projects:
+expertise:
     title: Areas of Expertise
     intro: >
       Besides well-designed data engineering skills, I have highly effective software development skills, as well as good research skills.
@@ -212,7 +212,7 @@ projects:
         link: "#"
         tagline: "Diagnosed failure issues and system bottleneck resources, provide solution advice for better system performance"
 
-publications:
+projects:
     title: Projects
     intro: |
       Although most of the projects I participated in are related to AI, Big Data solutions, I play various roles in different projects that allow me to expand a wide skill.
@@ -302,7 +302,7 @@ publications:
                     ⑥:Paticipated in A/B experiments with the BI team to deploy the strategies online.  
                     ⑦:Introduced machine-learning technology to help create the user profile and analyze user behavior modeling. Increased 3.67% in average of 7 days User Retention Rate</br>
 
-skills:
+skills-details:
     title: Technical Skills
     programming:
           - name: Python
@@ -401,5 +401,36 @@ skills:
           - name: Photoshop
             level: 75%
 
+skills:
+    title: Technical Skills
+    programming:
+          - name: Python,Java,Scala,C#
+
+    database:
+          - name: Mysql,PostgreSQL,OracleDB
+
+    dataVisualization:
+          - name: PowerBI,Excel
+
+    versionControl:
+          - name: Github,Git
+
+    platform:
+          - name: Linux,Windows,MacOS
+
+    cloudComputing:
+          - name: AWS
+
+    containerTechnology:
+          - name: Docker,Vagrant,Ansible
+
+    framework:
+          - name: Spring Boot,Flask,Django,WPF
+
+    testTools:
+          - name: Pytest,Junit,Selenium,Postman
+
+    UIDesign:
+          - name: Photoshop
 footer: >
-    Designed with <i class="fas fa-heart"></i> by Chan Kein
+    Designed by Chan Kein

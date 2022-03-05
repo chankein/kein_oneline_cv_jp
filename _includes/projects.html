@@ -1,38 +1,33 @@
 {% assign projects = site.data.data.projects %}
 {% if projects %}
-<section class="section projects-section">
+<section class="section publications-section">
 
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+      <i class="fas fa-certificate fa-stack-1x fa-inverse"></i>
     </span>
     {{ projects.title }}
   </h2>
 
   {% if projects.intro %}
   <div class="intro">
-      <p>{{ projects.intro }}</p>
+    {{ projects.intro | markdownify }}
   </div><!--//intro-->
   {% endif %}
 
-  {% for project in projects.assignments %}
-    <div class="item">
-
-      <span class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_self">{{ project.title }}</a>
-        {% else %}
-        {{ project.title }}
-        {% endif %}
-      </span>
-
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
-      {% endif %}
-
-    </div><!--//item-->
+  {% for project in projects.papers %}
+  <div class="item">
+    {% if project.link %}
+      <li><a href="{{ publication.link }}" target="_blank">{{ project.title }}</a></li>
+    {% else %}
+      <li>{{ project.title }}</li>
+    {% endif %}
+    <div class="publication-authors">{{ project.authors }}</div>
+    <div class="publication-conference">{{ project.conference }}</div>
+  </div><!--//item-->
   {% endfor %}
 
 </section><!--//section-->
+<a href="http://localhost:4000/">Click here to Resume Page</a>
 {% endif %}
