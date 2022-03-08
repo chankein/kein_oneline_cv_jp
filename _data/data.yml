@@ -90,6 +90,8 @@ brief:
       <br/>
       Currently working in Japan as a permanent resident.<br/>
       Seeking job opportunities in Macao for family reasons.
+    changelanguage: 轉中文
+    changelanguageurl: https://chankein.github.io/Kein-cv-cn/ 
 
 career-profile:
     title: Career Profile
@@ -224,6 +226,8 @@ expertise:
         tagline: "Diagnosed failure issues and system bottleneck resources, provide solution advice for better system performance"
 
 projects:
+    changelanguage: 轉中文
+    changelanguageurl: https://chankein.github.io/Kein-cv-cn/project.html 
     backToTOp: Click here to Resume Page
     title: Projects
     intro: |
