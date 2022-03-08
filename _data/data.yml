@@ -100,13 +100,13 @@ career-profile:
       Robotics,Self-learning Network Cofigration, OCR.<br/>
       <br/>
       Designed data warehouse models in accordance with spec requirements for APP statistic report 
-      of 50 millions DAU(daily active units).<br/>
+      of 34 millions DAU(daily active units).<br/>
       <br/>
       Strong competency in machine learning and data visualization.
 
 experiences:
     - role: Server-Side Engineer Leader
-      time: 2019 - Present
+      time: 2019.09 - Present
       company: Outsourcing Technology(TSE Code:2427), Tokyo 
       details: |
         Provided server-side solutions for TRI-AD, Fuji Film(Xerox), and Fujitsu Network Solutions.
@@ -121,7 +121,7 @@ experiences:
         - NTT: Nippon Telegraph and Telephone
 
     - role: Full Stack Developer
-      time: 2018 - 2019
+      time: 2018.06 - 2019.08
       company: Oriental Kingdom Group, Tokyo
       details: |
         Provided solutions for Softbank Robotics, Cisco.
@@ -132,7 +132,7 @@ experiences:
         - SDN: Software-Defined Networking
     
     - role: Big Data Engineer
-      time: 2015 - 2018
+      time: 2015.10 - 2018.05
       company: Lamabang Technology Co., Ltd, Shenzhen
       details: |
         Provided data warehouse infrastructure solutions to cope with the increasing data process needs along with fast user-growth of APP from 300,000 to 3,400,000(DAU).<br/>
@@ -149,23 +149,36 @@ experiences:
         - DAU: Daily Active Units
         - ETL: Extract-Transform-Load
         - BI : Business Intelligence
+
+    - role: System Engineer
+      time: 2014.04 - 2015.09
+      company: Lino-A Co., Ltd, Kyoto
+      details: |
+        Developed a multi-languages travel information system by WordPress for the inbound traveler.
+
+    - role: Video Editor
+      time: 2008.04 - 2009.09
+      company: Yuanmuyingshi Studio Co., Ltd, Zhuhai
+      details: |
+        Responsible for television program and video advertising editing.
+
       goToProject: Click here to the project detail page.
 
 education:
     - degree: Master Degree(MEc)
       university: Osaka University, Japan
-      time: 2012 - 2014
+      time: 2012.04 - 2014.03
       details: |
 
     - degree: 
       university: Kokusyo Japanese-language school, Japan
-      time: 2010 - 2011
+      time: 2010.10 - 2011.09
       details: |
         To prepare for entering exam of doctor program.
 
     - degree: Bachelor Degree(BJ)
       university: South China University of Technology,China
-      time: 2004 - 2008
+      time: 2004.09 - 2008.07
       details: |
         p.
     
