@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Kein Chan
-    tagline: Server-Side Engineer<br/>Data Scientist
+    tagline: Server-Side Engineer<br/>Data Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -70,12 +70,6 @@ sidebar:
       - item: Google Analytics Advanced
         link:
         
-      - item: JLPT(N1) # (Japanese Language Proficiency Test)
-        link:
-      
-      - item: TOEFL (Score:76) # (Test of English as a Foreign Language)
-        link:
-
       - item: Janpanese Certified Financial Planner (level 3)
         link:
 
@@ -86,7 +80,7 @@ brief:
     title: About Me
     summary: |
       Senior Engineer with over 6 years of experience in practical AI/Big-Data projects.<br/>
-      Provide solutions for the Japanese Government, Toyota, Fuji Film(Xerox), Cisco, and Fujitsu Network Solutions.<br/>
+      Provide solutions for the Japanese Government, Toyota, Fuji Film(Xerox), and Fujitsu Network Solutions.<br/>
       <br/>
       Currently working in Japan as a permanent resident.<br/>
       Seeking job opportunities in Macao for family reasons.
@@ -96,8 +90,6 @@ brief:
 career-profile:
     title: Career Profile
     summary: |
-      Highly-skilled and motivated senior Server-Side Engineer with over 6 years' experience.<br/>
-      <br/>
       Specialized in data science practical projects including Intelligent Recommendation,
       Robotics,Self-learning Network Cofigration, OCR.<br/>
       <br/>
@@ -112,7 +104,7 @@ experiences:
       company: Outsourcing Technology(TSE Code:2427), Tokyo 
       details: |
         Provided server-side solutions for TRI-AD, Fuji Film(Xerox), and Fujitsu Network Solutions.
-        - Designed and developed a Microstructure Services System that controls and manages over 3000 robots for Smart Logistics in Woven City.
+        - Designed and developed a Microstructure Services System that controls and manages over 3000 robots for Toyota Smart Logistics in Woven City.
         - Developed 5 windows applications deploy OCR techs for the census registration system in the Japanese Government.
         - Developed a network monitoring system that provides network failure self-detection and visualization for network device management in NTT core network by Fujitsu Network Solutions.
       description: | 
@@ -126,12 +118,7 @@ experiences:
       time: 2018.06 - 2019.08
       company: Oriental Kingdom Group, Tokyo
       details: |
-        Provided solutions for Softbank Robotics, Cisco.
           - Responsible for quality control and bug reports of robot control software inside humanoid robot Pepper and central control server system.
-          - Developed self-learning network-configurations setting modules for large-scale SDN solution.
-      description: | 
-        abbr:
-        - SDN: Software-Defined Networking
     
     - role: Big Data Engineer
       time: 2015.10 - 2018.05
@@ -189,9 +176,9 @@ expertise:
     intro: >
       Besides well-designed data engineering skills, I have highly effective software development skills, as well as good research skills.
     assignments:
-      - title: Data Architecture & Design
+      - title: Data Architecture Design
         link: "#"
-        tagline: "Design & Data architecture for business requirement"
+        tagline: "Design Data architecture for business requirement"
 
       - title: Data Visualzation
         link: "#"
@@ -209,7 +196,7 @@ expertise:
         link: "#"
         tagline: "Design & Conduct Test Case for Software Quality Control"
 
-      - title: Program Languages
+      - title: Programming Languages
         link: "#"
         tagline: "Good experience in Python, Java, and C#"
 
@@ -221,7 +208,7 @@ expertise:
         link: "#"
         tagline: "Being able to handle multiple working languages - Chinese, Japanese, and English"
 
-      - title: Problem-solving
+      - title: Problem shooting
         link: "#"
         tagline: "Diagnosed failure issues and system bottleneck resources, provide solution advice for better system performance"
 
@@ -243,7 +230,7 @@ projects:
                     and to adjust data errors by autoprocessing.</br>
         KeyAchievements: |
                     1. Co-decided data processing for each task.
-                    1. Designed and built data wharehouse for each App.
+                    1. Designed and built databases for each App.
                     1. Created and maintain structured document definition in OCR process for scaned data.
                     1. Created batches to enhence the precision of Optical Character Recognition.
                     1. Designed UI/UX and created windows Apps when human involve is required.
@@ -285,17 +272,6 @@ projects:
                     1. Reproduced reported bugs and collected evidence to create bug reports to bug fix team.
                     1. Traced bugs fix status by Redmine.
                     
-
-      - title: NSO(Cisco)
-        link: "https://www.cisco.com/c/en/us/products/cloud-systems-management/network-services-orchestrator/index.html/"
-        role: "Module Developer"
-        description: NSO provides a robust bridge linking network automation and orchestration tools with the underlying physical and virtual infrastructure.</br>
-                    I was responsible for SDN package development.</br>
-        KeyAchievements: |
-                    1. Developed the network configuration mapping module to convert structured data from definition files to CDB database.
-                    1. Developed the configuration data handling module for setting up multi-vendor devices and network definitions.
-                    1. Developed test scripts for unit tests and integration tests.
-
       - title: Data Team in Lamabang Corp
         link: "http://www.lamabang.com/article/detail/m-about.html/"
         role: "Big-Data Engineer"
