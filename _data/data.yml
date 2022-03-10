@@ -32,8 +32,8 @@ sidebar:
     # codewars:
     # goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: https://chankein.github.io/Kein-cv/assets/resume_cn.pdf
-    excel: http://localhost:4000/assets/resume_jp202201.xls
-    word: http://localhost:4000/assets/resume_jp202201.xls
+    excel: https://chankein.github.io/Kein-cv/assets/resume_jp202201.xls
+    word: https://chankein.github.io/Kein-cv/assets/Resume_KeinChan(ChenQiying)_EN.docx
 
     languages:
       - idiom: Cantonese
@@ -94,7 +94,7 @@ career-profile:
       Robotics,Self-learning Network Cofigration, OCR.<br/>
       <br/>
       Designed data warehouse models in accordance with spec requirements for APP statistic report 
-      of 34 millions DAU(daily active units).<br/>
+      of 3.4 millions DAU(daily active units).<br/>
       <br/>
       Strong competency in machine learning and data visualization.
 
@@ -114,9 +114,9 @@ experiences:
         - OCR: Optical Character Recognition
         - NTT: Nippon Telegraph and Telephone
 
-    - role: Full Stack Developer
+    - role: Test Engineer
       time: 2018.06 - 2019.08
-      company: Oriental Kingdom Group, Tokyo
+      company: Oriental Kingdom Group Co., Ltd, Tokyo
       details: |
           - Responsible for quality control and bug reports of robot control software inside humanoid robot Pepper and central control server system.
     
@@ -141,7 +141,7 @@ experiences:
 
     - role: System Engineer
       time: 2014.04 - 2015.09
-      company: Lino-A Co., Ltd, Kyoto
+      company: Lino-a Co., Ltd, Kyoto
       details: |
         Developed a multi-languages travel information system by WordPress for the inbound traveler.
 
