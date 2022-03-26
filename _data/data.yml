@@ -178,15 +178,15 @@ expertise:
     assignments:
       - title: Data Architecture Design
         link: "#"
-        tagline: "Design Data architecture for business requirement"
+        tagline: "Design Data architecture for business requirement needs"
 
       - title: Data Visualzation
         link: "#"
-        tagline: "Quick data visualizing by Power BI, Customize visualizing development"
+        tagline: "Quick data visualizing by Power BI, also have experince on developing data visualizing platform for customized requirements."
 
       - title: Data Mining
         link: "#"
-        tagline: "Furnish insights, analytics, and business intelligence needed to the facility management's decision-making"
+        tagline: "Furnish insights, analytics, and business intelligence needed to assist management's decision-making"
 
       - title: Windows Apps Developing
         link: "#"
@@ -198,7 +198,7 @@ expertise:
 
       - title: Programming Languages
         link: "#"
-        tagline: "Good experience in Python, Java, and C#"
+        tagline: "Rich experience in Python, Java, and C#"
 
       - title: Highly Effective Algorithm
         link: "#"
@@ -206,11 +206,11 @@ expertise:
 
       - title: Nature Languages
         link: "#"
-        tagline: "Being able to handle multiple working languages - Chinese, Japanese, and English"
+        tagline: "Being able to work in multiple languages - Chinese, Japanese, and English"
 
       - title: Problem shooting
         link: "#"
-        tagline: "Diagnosed failure issues and system bottleneck resources, provide solution advice for better system performance"
+        tagline: "Diagnose failure issues and system bottleneck resources, then provide solution advice for better system performance"
 
 projects:
     changelanguage: 轉中文
@@ -218,23 +218,24 @@ projects:
     backToTOp: Click here to Resume Page
     title: Projects
     intro: |
-      Although most of the projects I participated in are related to AI, Big Data solutions, I play various roles in different projects that allow me to expand a wide skill.
-      With experiences in the design phase, development phase, test phase, I hold a global view of system development.
-      Therefore, I have a multi-aspect view when comes to a new project and am capable of most positions.
+      I am a tech-nerd with strong interest in system development, algorithm design and quantitative trading. 
+      Most projects I participated in are related to AI and Big Data solutions, where I played various roles and expanded my skill set.
+      With rich experiences in design, development and test phase, I have a comprehensive understanding of system development.
+      Therefore, I can be real asset when comes to a new project and be eligible for various intermediate to senior positions.
     
     project:
-      - title: The Computerization Project for Family Register in Japan(Fuji Film)
+      - title: The Computerization Project for Family Register in Japan (Fuji Film)
         link: "https://www.fujifilm.com/fbss/solution/public/"
         role: "System Engineer"
         description: The project is to detect mismatch data in the Certificate of Family Register in Japan by deploying OCR technology,
-                    and to adjust data errors by autoprocessing.</br>
+                    and to correct data errors by autoprocessing.</br>
         KeyAchievements: |
                     1. Co-decided data processing for each task.
                     1. Designed and built databases for each App.
-                    1. Created and maintain structured document definition in OCR process for scaned data.
+                    1. Created and maintained structured document definition in OCR process for scaned data.
                     1. Created batches to enhence the precision of Optical Character Recognition.
-                    1. Designed UI/UX and created windows Apps when human involve is required.
-                    1. Lead failure investigations, conduct necessary analysis and perform corrective action for OCR module failures.
+                    1. Designed UI/UX and created windows Apps when human involvement is required.
+                    1. Lead failure investigations, conduct necessary analysis and perform correction for OCR module failures.
 
       - title: Toyota Smart Logistics System in Woven-City (Woven Planet)
         link: "https://www.woven-city.global/"
@@ -244,29 +245,29 @@ projects:
         KeyAchievements: |
                     1. Abstract function model to entities model, designed system architecture base on microstructure architecture method.
                     1. Designed data flow, database tables, inter-faces definitions and created relative specification documents.
-                    1. Created development/test/product environment indivitual base on container techonology by create docker-compose environments that are consistent and isolated.
-                    1. Developed Microstructure Services include restful-api, mqtt, rabbitmq sender/receiver entities under Spring Boots framework.
+                    1. Created development/test/product environment individually base on container techonology via creating consistent and isolated docker-compose environments.
+                    1. Developed Microstructure Services including restful-api, mqtt, rabbitmq sender/receiver entities under Spring Boots framework.
                     1. Designed and conducted test cases for unit test, integration test and functional test for quality control.
-                    1. Created mock data and developed stub entities in Python for to be deveoloped internal interface and external system interface for testing purpose.
+                    1. Created mock data and developed stub entities in Python to develop internal interface and external system interface for testing purpose.
 
       - title: vSure (Fujitsu)
         link: "https://www.fujitsu.com/ca/en/products/network/products/vsure/"
         role: "Server-Side Engineer"
-        description: vSure is a system that offers a single, multivendor solution that manages any technology across both physical and virtual infrastructure for Telecommunications companies.</br>
+        description: vSure is a system that offers a multivendor one-stop solution that manages any technology across both physical and virtual infrastructure for Telecommunications companies.</br>
         KeyAchievements: |
                     1. Designed inter-faces definitions and created relative specification documents.
                     1. Designed and conducted test cases for unit test and integration test for quality control.
                     1. Diagnosed system bottleneck resource by creating monitoring scripts and analyzing system logs.
                     1. Conducted code review and offer advice to optimize software performance.
-                    1. By conducting code refactoring, I reduced the complexity of the algorithm that managed to reduce the total time cost from more than 700 days to less than 10 minutes.   
+                    1. By conducting code refactoring to reduce the complexity of the algorithm that result in a reduce in total time cost from 700+ days to 10 minutes. 
 
       - title: To Business Solution Project (Softbank Robotics)
         link: "https://www.softbankrobotics.com/emea/en/pepper/"
         role: "Test Engineer"
-        description: I was responsible for Quality Control in Apps development on pepper and the server-side management system for pepper.</br>
+        description: I was responsible for Quality Control in Apps development and the server-side management system for pepper.</br>
         KeyAchievements: |
                     1. Designed test cases for unit test, integration test, and functional test for pepper apps and server-side management system.
-                    1. Conducted UAT (User Acceptance Test) for apps install in pepper OS. Ensured that the products meet quality and reliability requirements before they were released to consumers.
+                    1. Conducted UAT (User Acceptance Test) for apps install in pepper OS. Ensured the products meet quality and reliability requirements before they were released to consumers.
                     1. Introduced selenium framework to conduct UX/UI automatic tests for the robot management system.
                     1. Collected and analyzed logs uploaded from pepper system in AWS cloud server.
                     1. Reproduced reported bugs and collected evidence to create bug reports to bug fix team.
@@ -275,17 +276,17 @@ projects:
       - title: Data Team in Lamabang Corp
         link: "http://www.lamabang.com/article/detail/m-about.html/"
         role: "Big-Data Engineer"
-        description: Lamabang is one of the biggest mobile social network for women in China. Besides the Lamabang app, Lamabang Crop runs 4 relative smartphone apps.</br>
+        description: Lamabang is one of the biggest mobile social network for women in China. Besides the Lamabang app, Lamabang Crop runs 4 more related smartphone apps.</br>
                     As a unicron company in China, the company face a challenge of explosive growth in data.
                     The data team also provides data support for the cross-function team.
         KeyAchievements: |
                     1. Designed, defined, tested, and managed over 3400 data buried points for user behavior tracking and aggregate purpose.
-                    1. Program and implement ETL processes and applications in SQL, shell scripts, Python scripts, and Scala scripts.
-                    1. Design and deploy databases architecture and systems infrastructure for corporate IT systems.
-                    1. Build and maintain OSS system under database team for data visualization and Operation Support to help manager group.
+                    1. Programmed and implemented ETL processes and applications in SQL, shell scripts, Python scripts, and Scala scripts.
+                    1. Designed and deployed databases architecture and systems infrastructure for corporate IT systems.
+                    1. Built and maintained OSS system under database team for data visualization and Operation Support to help Product Manager Team.
                     1. Developed automotive modules to monitor abnormal access, detect abnormal user behavior and send alarms by WeChat/E-mail to Operation And Maintenance Team in real-time.
-                    1. Paticipated in A/B experiments with the BI team to deploy the strategies online.  
-                    1. Introduced machine-learning technology to help create the user profile and analyze user behavior modeling. Increased 3.67% in average of 7 days User Retention Rate.
+                    1. Paticipated in A/B experiments with the BI team to deploy new strategies online.  
+                    1. Introduced machine-learning technology to help create user profile and analyze user behavior modeling result in a 3.67% increase in 7 days User Retention Rate.
 
 skills-details:
     title: Technical Skills
