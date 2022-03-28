@@ -1,13 +1,7 @@
 {% assign brief = site.data.data.brief %}
 {% if brief %}
 <section class="section summary-section">
-
   <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-bell fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ brief.title }}
     <a class="switch-lan" href="{{ brief.changelanguageurl}}">    
       <span class="fa-stack fa-xs">
         <i class="fas fa-circle fa-stack-2x"></i>
@@ -15,6 +9,16 @@
       </span>
       {{ brief.changelanguage}}
     </a>
+  </br>
+  </h2>
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-bell fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ brief.title }}
+    
+    
   </h2>
 
   <div class="summary">
