@@ -128,7 +128,7 @@ experiences:
         Furnish insights, analytics, and business intelligence needed to facility management's decision-making.<br/>
         Monitored and diagnosed for data fluctuation exception.
           - Developed an ETL data pipeline using SQL, Shell scripts, Python scripts, scala scripts from various sources that process daily data over 50 TB.
-          - Designed data warehouse models in accordance with spec requirements for APP statistic report of 50 millions DAU.
+          - Designed data warehouse models in accordance with spec requirements for APP statistic report of 3.4 millions DAU.
           - Transformed business propositions into quantitative queries and then collected/cleaned necessary data. Created over 200 quantitative reports each year at the request of the Market Operation Department, Advertising Department, and the BI Department.
           - Developed an API server to provide data support for server-side development teams.
           - Developed an OSS system under database team with over 12 sections of data visualization web pages for routine data analyzing.
@@ -166,7 +166,7 @@ education:
         To prepare for entering exam of doctor program.
 
     - degree: Bachelor Degree(BJ)
-      university: South China University of Technology,China
+      university: South China University of Technology, China
       time: 2004.09 - 2008.07
       details: |
         p.
@@ -208,7 +208,7 @@ expertise:
         link: "#"
         tagline: "Being able to work in multiple languages - Chinese, Japanese, and English"
 
-      - title: Problem shooting
+      - title: Problem Shooting
         link: "#"
         tagline: "Diagnose failure issues and system bottleneck resources, then provide solution advice for better system performance"
 
